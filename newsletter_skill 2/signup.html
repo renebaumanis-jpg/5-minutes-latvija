@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="lv">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>5 Minūtes Latvijā</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;0,800;1,400&family=Inter:wght@300;400;500;600&display=swap');
+
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+  :root {
+    --paper:   #fbf9f3;
+    --bg:      #e8e4da;
+    --ink:     #1a1a1a;
+    --soft:    #3a3a3a;
+    --muted:   #888;
+    --rule:    #d0ccc0;
+    --red:     #9e1c20;
+    --serif:   'Playfair Display', Georgia, 'Times New Roman', serif;
+    --sans:    'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+  }
+
+  html, body {
+    background: var(--bg);
+    color: var(--ink);
+    font-family: var(--serif);
+    -webkit-font-smoothing: antialiased;
+  }
+
+  body {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 56px 20px;
+  }
+
+  /* ─── Paper ───────────────────────────────────────── */
+  .paper {
+    width: 100%;
+    max-width: 640px;
+    background: var(--paper);
+    box-shadow: 0 2px 40px rgba(0,0,0,0.07);
+    animation: rise 0.55s ease both;
+  }
+
+  @keyframes rise {
+    from { opacity: 0; transform: translateY(14px); }
+    to   { opacity: 1; transform: translateY(0);    }
+  }
+
+  /* ─── Masthead ────────────────────────────────────── */
+  .masthead {
+    padding: 52px 60px 44px;
+    text-align: center;
+  }
+
+  /* Red rule — thin, top */
+  .rule-red {
+    height: 2px;
+    background: var(--red);
+    width: 100%;
+  }
+
+  /* Thin black rule */
+  .rule-black-thin {
+    height: 1px;
+    background: var(--ink);
+    width: 100%;
+  }
+
+  /* Thick black rule */
+  .rule-black-thick {
+    height: 2px;
+    background: var(--ink);
+    width: 100%;
+  }
+
+  .masthead-date {
+    font-family: var(--sans);
+    font-size: 10px;
+    font-weight: 500;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: var(--muted);
+    display: block;
+    margin: 20px 0 20px;
+  }
+
+  /* Title — "5 Minūtes" in red, "Latvijā" in ink */
+  h1 {
+    font-family: var(--serif);
+    font-size: clamp(48px, 10vw, 68px);
+    font-weight: 800;
+    line-height: 0.92;
+    letter-spacing: -2.5px;
+    margin: 22px 0;
+  }
+
+  h1 .red  { color: var(--red); }
+  h1 .ink  { color: var(--ink); }
+
+  .pub-line {
+    font-family: var(--sans);
+    font-size: 10px;
+    font-weight: 500;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: var(--muted);
+    margin: 20px 0 0;
+  }
+
+  /* ─── Body ────────────────────────────────────────── */
+  .body {
+    padding: 40px 60px 56px;
+    border-top: none;
+  }
+
+  /* Red micro-label */
+  .section-label {
+    font-family: var(--sans);
+    font-size: 10px;
+    font-weight: 700;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: var(--red);
+    margin-bottom: 24px;
+    display: block;
+  }
+
+  .lede {
+    font-family: var(--serif);
+    font-size: 22px;
+    line-height: 1.45;
+    color: var(--ink);
+    letter-spacing: -0.3px;
+    margin-bottom: 20px;
+  }
+
+  .sub {
+    font-family: var(--serif);
+    font-size: 16px;
+    font-style: italic;
+    line-height: 1.7;
+    color: var(--soft);
+    margin-bottom: 36px;
+  }
+
+  /* ─── Feature list ───────────────────────────────── */
+  .features {
+    list-style: none;
+    border-top: 1px solid var(--rule);
+    margin-bottom: 40px;
+  }
+
+  .features li {
+    display: flex;
+    gap: 18px;
+    align-items: baseline;
+    padding: 15px 0;
+    border-bottom: 1px solid var(--rule);
+    font-family: var(--serif);
+    font-size: 15px;
+    line-height: 1.55;
+    color: var(--soft);
+  }
+
+  /* Red dash accent instead of number */
+  .features li::before {
+    content: '—';
+    color: var(--red);
+    font-weight: 700;
+    flex-shrink: 0;
+    font-size: 14px;
+  }
+
+  /* Early reader note — quiet, premium */
+  .early-note {
+    font-family: var(--sans);
+    font-size: 11px;
+    font-weight: 500;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    color: var(--muted);
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .early-note::before {
+    content: '';
+    display: block;
+    width: 24px;
+    height: 1px;
+    background: var(--red);
+    flex-shrink: 0;
+  }
+
+  /* ─── Form ────────────────────────────────────────── */
+  .form-label {
+    display: block;
+    font-family: var(--sans);
+    font-size: 10px;
+    font-weight: 600;
+    letter-spacing: 2.5px;
+    text-transform: uppercase;
+    color: var(--ink);
+    margin-bottom: 12px;
+  }
+
+  .form-row {
+    display: flex;
+    border: 1.5px solid var(--ink);
+    background: #fff;
+  }
+
+  input[type="email"] {
+    flex: 1;
+    border: none;
+    padding: 17px 20px;
+    font-family: var(--serif);
+    font-size: 16px;
+    color: var(--ink);
+    background: transparent;
+    outline: none;
+  }
+
+  input[type="email"]::placeholder {
+    color: #bbb;
+    font-style: italic;
+  }
+
+  /* Red button */
+  button[type="submit"] {
+    background: var(--red);
+    color: var(--paper);
+    border: none;
+    padding: 0 28px;
+    font-family: var(--sans);
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 2.5px;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: background 0.18s;
+    white-space: nowrap;
+  }
+
+  button[type="submit"]:hover { background: #7d1519; }
+
+  .fine-print {
+    font-family: var(--sans);
+    font-size: 11px;
+    color: var(--muted);
+    margin-top: 13px;
+    line-height: 1.6;
+  }
+
+  /* ─── Success ─────────────────────────────────────── */
+  .success {
+    display: none;
+    padding: 28px 0 0;
+    font-family: var(--serif);
+    border-top: 1px solid var(--rule);
+    margin-top: 28px;
+  }
+
+  .success h2 {
+    font-size: 26px;
+    font-weight: 700;
+    color: var(--ink);
+    margin-bottom: 10px;
+  }
+
+  .success p {
+    font-size: 15px;
+    font-style: italic;
+    color: var(--soft);
+    line-height: 1.65;
+  }
+
+  /* ─── Footer ──────────────────────────────────────── */
+  .footer {
+    background: var(--ink);
+    padding: 28px 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 12px;
+  }
+
+  .footer-brand {
+    font-family: var(--serif);
+    font-size: 14px;
+    font-weight: 700;
+    color: var(--paper);
+    letter-spacing: -0.3px;
+  }
+
+  .footer-brand span { color: var(--red); }
+
+  .footer-meta {
+    font-family: var(--sans);
+    font-size: 10px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #888;
+  }
+
+  /* ─── Responsive ─────────────────────────────────── */
+  @media (max-width: 520px) {
+    .masthead, .body, .footer { padding-left: 28px; padding-right: 28px; }
+    .form-row  { flex-direction: column; }
+    button[type="submit"] { padding: 18px; text-align: center; }
+    .footer    { flex-direction: column; align-items: flex-start; }
+  }
+</style>
+</head>
+<body>
+
+<div class="paper">
+
+  <!-- Red rule at very top -->
+  <div class="rule-red"></div>
+
+  <!-- Masthead -->
+  <div class="masthead">
+    <div class="rule-black-thin"></div>
+
+    <span class="masthead-date">Iknedēļas izdevums &nbsp;·&nbsp; Otrdienās plkst. 10:00</span>
+
+    <div class="rule-black-thin"></div>
+
+    <h1>
+      <span class="red">5 Minūtes</span><br>
+      <span class="ink">Latvijā</span>
+    </h1>
+
+    <div class="rule-black-thick"></div>
+
+    <p class="pub-line">Iknedēļas Latvijas brīfings</p>
+  </div>
+
+  <!-- Body -->
+  <div class="body">
+
+    <span class="section-label">Par izdevumu</span>
+
+    <p class="lede">
+      Katru otrdienu — piecu minūšu iknedēļas apskats par svarīgāko, kas Latvijā un pasaulē noticis pagājušajā nedēļā.
+    </p>
+
+    <p class="sub">
+      Rakstīts kā digitāla avīze, nevis ziņu apkopojums. Katrs stāsts — rūpīgi atlasīts, skaidri izskaidrots.
+    </p>
+
+    <!-- Red divider -->
+    <div class="rule-red" style="margin-bottom:32px"></div>
+
+    <ul class="features">
+      <li>Viens iknedēļas brīfings — bez spama, bez trokšņa.</li>
+      <li>5 galvenie stāsti, ekonomikas tendences, kultūras moments.</li>
+      <li>Piecu minūšu lasījums, kas aizstāj stundas pārlūkošanu.</li>
+      <li>Rakstīts visiem latviešiem — studentiem, profesionāļiem, ģimenēm.</li>
+    </ul>
+
+    <!-- Early reader framing — quiet, not aggressive -->
+    <p class="early-note">Pievienojies pirmajiem lasītājiem</p>
+
+    <form id="signup-form" action="https://formspree.io/f/xgodqbyl" method="POST">
+      <label class="form-label" for="email">E-pasta adrese</label>
+      <div class="form-row">
+        <input
+          id="email"
+          type="email"
+          name="email"
+          placeholder="jusu@epasts.lv"
+          required
+          autocomplete="email"
+        />
+        <button type="submit">Abonēt</button>
+      </div>
+      <p class="fine-print">
+        Katru otrdienu plkst. 10:00. Atrakstīšanās jebkurā brīdī.
+      </p>
+    </form>
+
+    <div class="success" id="success-msg">
+      <h2>Paldies.</h2>
+      <p>Esat pievienojies pirmajiem lasītājiem. Pirmais izdevums pienāks nākamajā otrdienā plkst. 10:00.</p>
+    </div>
+
+  </div>
+
+  <!-- Footer -->
+  <div class="footer">
+    <span class="footer-brand"><span>5 Minūtes</span> Latvijā</span>
+    <span class="footer-meta">Otrdienās · 10:00 · ~5 min</span>
+  </div>
+
+</div>
+
+<script>
+  const form = document.getElementById('signup-form');
+  const msg  = document.getElementById('success-msg');
+
+  form.addEventListener('submit', async (e) => {
+    e.preventDefault();
+    try {
+      const res = await fetch(form.action, {
+        method: 'POST',
+        body: new FormData(form),
+        headers: { 'Accept': 'application/json' }
+      });
+      if (res.ok) { form.style.display = 'none'; msg.style.display = 'block'; }
+      else alert('Radās kļūda. Lūdzu, mēģiniet vēlreiz.');
+    } catch { alert('Radās kļūda. Lūdzu, mēģiniet vēlreiz.'); }
+  });
+</script>
+
+</body>
+</html>
