@@ -1,0 +1,41 @@
+name: Generate Draft (Monday)
+
+on:
+  schedule:
+    - cron: '0 7 * * 1'
+  workflow_dispatch:
+
+jobs:
+  generate-draft:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Generate draft and send to editor
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          GMAIL_ADDRESS: ${{ secrets.GMAIL_ADDRESS }}
+          GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
+          EDITOR_EMAIL: ${{ secrets.EDITOR_EMAIL }}
+          UNSUB_SECRET: ${{ secrets.UNSUB_SECRET }}
+          UNSUB_BASE_URL: ${{ secrets.UNSUB_BASE_URL }}
+        run: python newsletter.py draft
+
+      - name: Commit draft
+        run: |
+          git config user.name "Newsletter Bot"
+          git config user.email "actions@github.com"
+          git add drafts/draft_latest.md
+          git diff --staged --quiet || git commit -m "Draft generated $(date +'%Y-%m-%d')"
+          git push

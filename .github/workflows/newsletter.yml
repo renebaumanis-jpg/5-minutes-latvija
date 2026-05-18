@@ -1,0 +1,39 @@
+name: Send Newsletter (Tuesday)
+
+on:
+  schedule:
+    - cron: '0 7 * * 2'
+  workflow_dispatch:
+
+jobs:
+  send-newsletter:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Send approved draft to subscribers
+        env:
+          GMAIL_ADDRESS: ${{ secrets.GMAIL_ADDRESS }}
+          GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
+          UNSUB_SECRET: ${{ secrets.UNSUB_SECRET }}
+          UNSUB_BASE_URL: ${{ secrets.UNSUB_BASE_URL }}
+        run: python newsletter.py send
+
+      - name: Commit issue counter and archive
+        run: |
+          git config user.name "Newsletter Bot"
+          git config user.email "actions@github.com"
+          git add issue_counter.txt sent_issues/
+          git diff --staged --quiet || git commit -m "Issue #$(cat issue_counter.txt) sent $(date +'%Y-%m-%d')"
+          git push
