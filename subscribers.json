@@ -1,4 +1,9 @@
 {
-  "subscribers": [],
-  "updated": ""
+  "subscribers": [
+    {
+      "email": "rene.baumanis@gmail.com",
+      "subscribed_at": "2026-05-19T00:40:18.742206"
+    }
+  ],
+  "updated": "2026-05-19T00:40:18.742215"
 }
