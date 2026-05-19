@@ -6,156 +6,134 @@
 
 ## ŠONEDĒĻ
 
-Divi droni nogāza valdību. Latvija atklāja, ka runāt par drošību un nodrošināt to nav viens un tas pats.
+Droni nogāza valdību. Tagad politiskā haosa vidū Latvija mēģina saprast, vai jaunais premjerministrs paspēs izveidot valdību pirms vasaras — un ko tas nozīmē drošībai, kad debesīs regulāri parādās nezināmas ierīces.
 
 ---
 
 ## LATVIJAS GALVENIE STĀSTI
 
-### Valdības krīze: no droniem līdz opozīcijas premjeram
+### Valdības krišana un jaunā koalīcijas meklējumi
 
-7. maijā divi droni ielidoja Latvijā no Krievijas gaisa telpas un trāpīja degvielas uzglabāšanas termināļam. Viens trāpīja Rēzeknes naftas bāzei — par laimi, tvertnēs nebija degvielas. Neviens necieta.
+Latvija piedzīvoja politisku zemestrīci. Ministru prezidente Evika Siliņa ceturtdien atkāpās no amata pēc tam, kad viņas koalīcijas partneris atsauca atbalstu — iegriežot NATO priekšposteņa valsti politiskā haosā tikai dažus mēnešus pirms plānotajām parlamenta vēlēšanām.
 
-Bet politiskais postījums izrādījās nopietnāks par materiālo.
+Siliņa atlaida aizsardzības ministru Andri Sprūdu pēc vairākām epizodēm, kad Ukrainas droni, šķietami ceļā uz mērķiem Krievijā, ietriecās Latvijas austrumu daļā. Sprūda Progresīvo partija pēc tam paziņoja, ka vairs neatbalstīs valdību.
 
-Neviens nemēģināja dronu notraukt, un gaisa trauksmes sirēnas atskanēja tikai pēc tam, kad abi droni jau bija trāpījuši mērķim. Incidents atklāja aizsardzības sistēmu, kas nav gatava: valdības reakcija aizkavējās par piecām stundām, nebija savlaicīgas informācijas par lidaparātu skaitu, izcelsmi vai nokrišanas vietām.
+Prezidents Edgars Rinkēvičs sestdien izvirzīja opozīcijas deputātu Andri Kulbergu (Apvienotais saraksts) premjera amatam. "Ņemot vērā nesenos notikumus, es uzskatu, ka jaunajam premjeram jānāk no opozīcijas partijām," viņš sacīja preses konferencē.
 
-Svētdien, 10. maijā, aizsardzības ministrs Andris Sprūds (Progresīvie) paziņoja par atkāpšanos. Premjerministre Siliņa iepriekš tajā pašā dienā pieprasīja viņa atkāpšanos, sakot, ka viņš zaudējis viņas uzticību un "sabiedrības uzticību".
+Kulbergs uzsvēra, ka būs gatavs pieņemt nepatīkamus lēmumus, īpaši izceļot airBaltic un Rail Baltica projektus kā potenciālos adresātus šādiem lēmumiem. Viņam ir laiks līdz 25. maijam, lai prezidentam iesniegtu savu plānu.
 
-Ceturtdien, 14. maijā, atkāpās pati premjerministre Evika Siliņa, jo Progresīvie atsauca atbalstu valdībai. "Es atkāpjos, bet nepadodos," viņa teica televīzijas paziņojumā.
+Vērts atcerēties: Saeima vasaras brīvdienās dosies 19. jūnijā un atgriezīsies tikai 31. augustā — nedaudz vairāk nekā mēnesi pirms 3. oktobra vēlēšanām. Vēlēšanu tuvums sarežģī situāciju vairākos veidos.
 
-Sestdien, 16. maijā, prezidents Edgars Rinkēvičs nominēja opozīcijas pārstāvi Andri Kulbergu no Apvienotā saraksta jaunā premjerministra kandidāta amatam. "Ņemot vērā nesenās notikumi, uzskatu, ka jaunajam premjerministram jānāk no opozīcijas partijām," prezidents sacīja preses konferencē.
+**Ko tas nozīmē tev:** Latvija pašlaik dzīvo "tehniskās valdības" režīmā — ministri turpina strādāt, bet sistēmiski lēmumi gaida. Ja Kulbergam neizdodas, vasaru pavadīsim ar pagaidu valdību, kas nevarēs risināt nevienu lielo jautājumu.
 
-Kulbergs uzsvēris gatavību pieņemt nepatīkamus lēmumus, īpaši izceļot airBaltic un Rail Baltica kā potenciālus mērķus. Viņam jāiesniedz plāns prezidentam līdz 25. maijam.
-
-**Ko tas nozīmē tev:** Latvija līdz oktobra vēlēšanām, iespējams, dzīvos ar pagaidu valdību. Saeimas vasaras brīvdienas sākas 19. jūnijā un beidzas tikai 31. augustā — mēnesi pirms vēlēšanām. Reālu reformu iespējas ir ierobežotas. Bet dronu incidents pierādīja: Baltijas valstis vairs nav abstrakti "NATO austrumu flangs". Tās ir valstis, kurām jāspēj notriekt droni vai vismaz savlaicīgi brīdināt iedzīvotājus. Šobrīd tas nenotiek.
+Secinājums: Latvija gadiem runāja par gatavību drošības izaicinājumiem. Pirmais īstais tests beidzās ar valdības krišanu.
 
 ---
 
-### Rēzeknes naftas bāze slēdzas pavisam
+### Rēzeknes naftas bāzes slēgšana — simbols un sekas
 
-Uzņēmums "East-West Transit" paziņoja, ka nespēj nodrošināt darbinieku drošību, tāpēc izbeidz darbību Rēzeknes naftas bāzē.
+7. maija naktī divi droni ietriecās East-West Transit naftas glabātavā Rēzeknē uz Komunālās ielas. Tvertnes bija tukšas, taču uzņēmums tagad paziņojis, ka darbinieku drošības dēļ pieņemts lēmums bāzi pilnībā slēgt.
 
-7. maija naktī divi droni ietriecās naftas uzglabāšanas tvertnēs Rēzeknē — tvertnes bija tukšas. Kompānija nekomentēja, kāpēc tvertnes bija tukšas, taču nozares pārstāvis norādīja, ka pēc apvienošanās ar Kool grupu loģistika mainījusies un Rēzeknes depo vienkārši vairs nebija nepieciešams.
+Trīs droni šķērsoja Latvijas gaisa telpu no Krievijas — divi nokrita Latvijas teritorijā, trešais vēlāk izgāja. Kaut arī brīdinājumi tika izsūtīti austrumu pierobežas iedzīvotājiem, Rēzeknē trauksme atskanēja tikai tad, kad droni jau bija redzami un dzirdami virs galvām.
 
-**Ko tas nozīmē:** Vēl viena rūpnieciskā infrastruktūra Latgalē aizver durvis. Reģionālā ekonomika turpina zaudēt pozīcijas.
+Incidents atklāja aizsardzības sistēmu, kas nav gatava: droni netika pārtverti pie robežas, brīdinājumi kavējās, valdības reakcija aizkavējās par piecām stundām, un sākotnēji nebija skaidras informācijas par ierīču skaitu vai izcelsmi.
 
----
+Ojārs Karčevskis no Latvijas Degvielas tirgotāju asociācijas LSM norādīja, ka loģistika mainījusies pēc apvienošanās ar Kool grupu, un Rēzeknes bāze to darbībai vairs nebija nepieciešama.
 
-### Rīgas maratons: rekords, kas parāda ko lielāku
+**Ko tas nozīmē tev:** Latgales iedzīvotājiem — tas nav abstrakts drošības jautājums. Cilvēki dzird dronus virs galvām pirms trauksmes. Biznesiem austrumos — jautājums par darbības turpināšanu drošības apstākļos.
 
-46 313 dalībnieki no 116 valstīm — lielākais Rimi Rīgas maratons vēsturē.
-
-Artūrs Niklāvs Medveds kļuva par Latvijas čempionu un uzstādīja jaunu valsts rekordu DPD jūdzē.
-
-Rīgas maratons ir viens no retajiem pasaules līmeņa pasākumiem, kas notiek Latvijā un par ko ārzemēs runā bez konteksta "bijušā PSRS". Tas ir zīmols, kas eksistē bez atvainošanās.
-
-**Ko tas nozīmē tev:** Ja pagājušajā nedēļas nogalē centrs bija bloķēts un tu nesaprati kāpēc — tagad zini. Nākamgad piesakies laikus.
+Secinājums: Drošības diskusijā beidzot ienākusi konkrētība. Rēzekne vairs nav tikai vieta kartē — tas ir vieta, kur sirēna var nenostrādāt.
 
 ---
 
-### Hokeja PČ: uzvara pret Vāciju, cerības dzīvas
+### 46 000 skrējēju un hokeja uzvara — nedēļas nogale, kas palīdzēja aizmirst
 
-Latvija apspēlēja Vāciju 2:0 svētdienas spēlē Cīrihē. Mārtiņš Dzierkalns un Rūdolfs Balcers guva vārtus, nodrošinot pirmo uzvaru šajā turnīrā.
+Kamēr politika sabruka, sports un skrējieni sniedza emocionālu atelpu.
 
-Vārtsargs Kristers Gudļevskis atvairīja 25 metienus, neielaižot nevienu ripu.
+Rimi Rīgas maratons kļuva par lielāko savas vēstures laikā: rekordlieli 46 313 dalībnieki no 116 valstīm. Divu dienu festivāls ietver pilno maratonu, pusmaratonu, 10 km, 6 km un DPD jūdzi, kā arī Bērnu dienu — padarot to par lielāko un starptautiskāko skriešanas festivālu Baltijā.
 
-Sestdien Latvija zaudēja mājiniecei Šveicei 2:4. Turpmāk grupā vēl Austrija, Somija, ASV, Lielbritānija un Ungārija.
+Hokejā Latvija svētdien uzvarēja Vāciju 2:0 grupas spēlē Cīrihē. Mārtiņš Dzierkals un Rūdolfs Balcers guva vārtus, mazajai Baltijas nācijai gūstot pirmo uzvaru 2026. gada čempionātā.
 
-Oskars Batņa brīdina: "Mēs zinām, kas notika pērnajā čempionātā" — 1:6 zaudējums Austrijai, kas izmaksāja vietu ceturtdaļfinālā.
+Vārtsargs Kristers Gudļevskis pilnībā nopelnīja "shutout" duelī pret Vācijas NHL zvaigzni Filipu Grubaueru. Gala metieni — 25:22 Vācijas labā, bet rezultāts — Latvijas.
 
-Nākamā spēle pret Austriju ir šovakar, 19. maijā.
+Pērnajā čempionātā Latvija pabeidza desmitajā vietā un netika līdz izslēgšanas spēlēm. Tagad komanda mēģina atgūt vietu starp labākajām pasaules izlasēm.
+
+**Kāpēc tas svarīgi:** Nedēļā, kad politikā valda haoss, sports atgādina, ka Latvija spēj uzvarēt — gan ar kājām, gan ar nūju.
 
 ---
 
-### Latvija Eirovīzijā: atpakaļ pie vecajām problēmām
+### Krievija dubulto dzelzceļa tarifus — vēl viens spiediens uz Baltiju
 
-Pēc divu gadu kvalificēšanās sērijas Latvija atkal neiekļuva finālā — Atvara ar dziesmu "Ēnā" palika 13. vietā otrajā pusfinālā.
+Saskaņā ar Krievijas Federālā antimonopola dienesta rīkojumu, sākot no 2026. gada 1. jūnija, kravu pārvadājumiem uz Latviju, Igauniju un Somiju tiks piemērots dubults koeficients.
 
-Latvija saņēma 21 punktu no televotēšanas un 28 no žūrijas — kopā 49 punkti.
+Izņēmums ir pārvadājumi uz Kaļiņingradas dzelzceļa stacijām un Lietuvu. Dubults koeficients tiks piemērots arī kravu pārvadājumiem caur Baltkrievijas sauszemes robežšķērsošanas punktiem, ja preces turpina ceļu uz Latviju vai Igauniju.
 
-Eirovīzijas 2026 uzvarētāja ir Bulgārija ar dziesmu "Bangaranga" — 516 punkti kopā, 204 no žūrijām un 312 no skatītājiem.
+Latvijas dzelzceļa kravu pārvadājumi turpina kristies — 2026. gada pirmajos četros mēnešos apjoms samazinājies par 17,9%, sasniedzot 2,469 miljonus tonnu. 2025. gadā kopējais apjoms jau bija samazinājies par 17,6% salīdzinājumā ar 2024. gadu.
 
-Latvijas Eirovīzijas stāsts turpina būt tāds: gadiem neiekļūstam, tad uz brīdi iekļūstam, tad atkal neiekļūstam. Sistēmiskas pieejas trūkums ir acīmredzams.
+**Ko tas nozīmē tev:** Vēl viens ekonomiskais spiediens no austrumiem. Latvijas ostu un loģistikas biznesi turpina pielāgoties — bet katrs jauns tarifu lēciens nozīmē mazāk darbavietu un mazāku tranzīta nozīmi.
 
 ---
 
 ## EKONOMIKA & IESPĒJAS
 
-### Krievija dubulto dzelzceļa tarifus Baltijas valstīm
+**Virši pārņem 17 degvielas stacijas**
 
-No 1. jūnija Krievijas Federālais antimonopolu dienests piemēros dubultu koeficientu dzelzceļa kravu pārvadājumu tarifam uz Latviju, Igauniju un Somiju.
+Konkurences padome apstiprinājusi AS Virši-A darījumu, kurā uzņēmums iegūs ilgtermiņa nomas tiesības uz 17 SIA Naftimpeks degvielas stacijām, kas pašlaik darbojas ar "Astarte" zīmolu. Virši plāno pārņemt stacijas jūnijā un jūlijā.
 
-Latvijas dzelzceļa kravu pārvadājumu apjoms jau tā turpina katastrofāli kristies — pirmajos četros 2026. gada mēnešos kritums par 17,9% salīdzinājumā ar pagājušā gada to pašu periodu.
+Pēc staciju pārņemšanas kopējais Virši staciju skaits pieaugs no 84 līdz 101, iezīmējot būtisku uzņēmuma tīkla paplašināšanos visā Latvijā.
 
-**Ko tas nozīmē:** Latvijas tranzīta modelis, kas bija balstīts uz Krievijas preču plūsmu caur Rīgas un Ventspils ostām, ir neatgriezeniski beidzies. Jautājums nav, vai tas atjaunosies. Jautājums ir, ar ko to aizstāt.
+**Ko tas nozīmē tev:** Lielāks Virši tīkls reģionos nozīmē vairāk degvielas piedāvājumu ārpus Rīgas un potenciāli konkurētspējīgākas cenas.
 
 ---
 
-### Virši pārņem Astarte DUS tīklu
+**Tūrisma kritums gada sākumā**
 
-Konkurences padome apstiprinājusi Virši darījumu — uzņēmums iegūst ilgtermiņa nomas tiesības uz 17 degvielas uzpildes stacijām, kas pašlaik darbojas ar zīmolu "Astarte".
+Pirmajā ceturksnī Latvijas tūristu mītnēs ieradušies 447,1 tūkstoši viesu, bet nakšņojumu skaits samazinājies par 3,0% salīdzinājumā ar 2025. gada pirmo ceturksni. Ārvalstu viesu skaits sarucis par 7,2%, kamēr Latvijas iedzīvotāju skaits audzis par 2,8%.
 
-Staciju pārņemšana plānota jūnijā un jūlijā. Pēc darījuma Virši tīkls pieaugs no 84 līdz 101 stacijai — būtisks paplašinājums reģionos.
+Kritums vērojams visos mēnešos: janvārī par 2,7%, februārī par 2,8%, martā par 3,3%.
 
-**Ko tas nozīmē tev:** Latvijas degvielas tirgus konsolidējas. Virši kļūst par vēl dominējošāku vietējo spēlētāju. Reģionos tas var nozīmēt labāku servisu vai — atkarībā no perspektīvas — mazāku konkurenci.
+**Ko tas nozīmē tev:** Latvija kā tūrisma galamērķis zaudē pievilcību starptautiskajos tirgos. Jautājums — vai ģeopolitiskā situācija sāk ietekmēt ceļotāju izvēles.
 
 ---
 
 ## INTERNETS & KULTŪRA
 
-### Muzeju nakts: 246 vietas, viena tēma
+### Atvara un Eirovīzijas vilšanās
 
-Sestdien, 23. maijā, 246 muzeji un kultūras vietas visā Latvijā atvērs durvis Muzeju naktī.
+Latvija atkal neiekļuva Eirovīzijas finālā — Atvara ar dziesmu "Ēnā" palika ārpus desmitniekā. Latvija finišēja 13. vietā otrajā pusfinālā ar 49 punktiem.
 
-Šā gada tēma — "Priekšmeta piedzīvojumi" — aicina apmeklētājus atklāt stāstus, kas slēpjas aiz šķietami ikdienišķiem priekšmetiem.
+Atvara — jauna dziedātāja un dziesmu autore no Latvijas, kas ieguva atpazīstamību, kļūstot virāla TikTok. Viņas singls "Pie manis tveries" skatīts vairāk nekā 2 miljonus reižu.
 
-82 kultūras vietas Rīgā un tās apkārtnē, 51 Vidzemē, 49 Kurzemē, 39 Latgalē un 25 Zemgalē.
+Latvijas internets pēc rezultāta sadalījās divās nometnēs: vieni uzskatīja, ka dziesma bija pārāk intīma Eirovīzijas skatuvei, citi — ka problēma nav mūzikā, bet mūsu spējā "pārdot" izpildītāju starptautiskajai auditorijai. Pēc divu gadu kvalificēšanās sērijas — atkal vilšanās.
 
-Šā gada tēma atsaucas uz Raiņa citātu "Arī lupata reiz bija vakarkrekls" — atgādinot, ka katram priekšmetam ir savs stāsts un vērtība.
-
-Ieeja bez maksas. Programma būs pieejama no 20. maija.
-
----
-
-## SPORTS & MOMENTI
-
-### Hokeja izlase uzvar Vāciju, gaida Austrijas revanšu
-
-Latvijas hokeja izlase uzvarēja reizējošos Eiropas čempionus Vāciju 2:0 pārliecinošā kolektīvā sniegumā. Rūdolfs Balcers tika atzīts par Latvijas labāko spēlētāju.
-
-Spēle pret Austriju šovakar plkst. 17:20 būs revanšs par pagājušā gada sāpīgo zaudējumu. Tas ir tests, vai šī izlase spēj turēt nervus un izpildīt cerības.
+Tikmēr Bulgārija uzvarēja lielo finālu ar DARA un dziesmu "Bangaranga".
 
 ---
 
 ## KO DARĪT ŠONEDĒĻ
 
-**Muzeju nakts 2026**
-*Sestdiena, 23. maijs, no tumsas līdz pusnaktij (un vēlāk)*
-*246 vietas visā Latvijā, ieeja bez maksas*
+**Muzeju nakts — sestdien, 23. maijā**
 
-Redaktora izvēle šonedēļ ir acīmredzama. Ja esi Rīgā — izvēlies 3-4 muzejus un izstaigā pilsētu. Ja reģionos — tas ir viens no retajiem gadījumiem, kad kultūra nāk pie tevis, nevis tu pie tās. Tēma "Priekšmeta piedzīvojumi" ir pietiekami atvērta, lai varētu sagaidīt gan nopietnas izstādes, gan radošas interpretācijas. Programma no 20. maija: latvia.icom.museum.lv
+Starptautiskā Muzeju diena Eiropā tiek svinēta 18. maijā, bet Latvijā tradicionālā Muzeju nakts šogad notiks jau 22. reizi — sestdien, 23. maijā.
+
+246 muzeji un kultūras vietas visā Latvijā atvērs durvis apmeklētājiem. Rīgā un tās apkārtnē piedalīsies 82 kultūras vietas, Vidzemē — 51, Kurzemē — 49, Latgalē — 39, Zemgalē — 25.
+
+Šī gada tēma "Priekšmeta piedzīvojumi" aicina atklāt stāstus, kas slēpjas aiz šķietami ikdienišķiem priekšmetiem.
+
+Ieeja — bez maksas. Programma: latvia.icom.museum.lv
+
+**Kāpēc aiziet:** Viena nakts gadā, kad muzeji kļūst par dzīvām vietām — ar koncertiem, radošajām darbnīcām, teātra izrādēm. Labākā iespēja ieraudzīt pazīstamas vietas citādi.
 
 ---
 
 ## ĀTRIE JAUNUMI
 
-- **Artūrs Niklāvs Medveds** uzstādīja jaunu Latvijas rekordu DPD jūdzē Rīgas maratonā.
+• 17. maija naktī vēl viens nezināmas izcelsmes drons šķērsoja Latvijas gaisa telpu un pēc tam to atstāja. Trauksme tika izsludināta piecu austrumu pierobežas novadu iedzīvotājiem, un gaisā tika pacelti NATO gaisa telpas patrulēšanas iznīcinātāji.
 
-- **Liepājas šosejas remontdarbi sākušies** — plāno attiecīgi, ja brauksi uz Kurzemi.
+• Baltijas valstis gatavojas tērēt aptuveni 12,2 miljardus eiro no ES SAFE zemo procentu aizdevumiem jauniem ieročiem, aprīkojumam un munīcijai — pirmie līgumi tiks parakstīti tuvākajās nedēļās.
 
-- **Kanādas ārlietu ministre Anita Anand** apmeklēja Latviju oficiālā vizītē.
+• Latvijas Banka izlaidusi jaunu kolekcijas monētu ar līgavas vainaga motīvu.
 
-- **Raimonda Paula mantojuma fonds** izveidots viņa intelektuālā īpašuma pārvaldīšanai.
+• Liepājas šosejas remontdarbi sākušies — plānojiet braucienus uz Kurzemi attiecīgi.
 
-- **Ventspilī metanola noplūde** — draudi sabiedrībai nav konstatēti.
-
----
-
-## NĀKAMĀ NEDĒĻA
-
-**Galvenais notikums:** Andris Kulbergs līdz 25. maijam iesniedz valdības veidošanas plānu prezidentam Rinkēvičam. Vai Latvija iegūs reālu valdību vai turpinās driftēt līdz oktobrim — lielā mērā izšķirsies šonedēļ.
-
-**Kas mainās:** No 1. jūnija Krievija piemēros dubultu dzelzceļa tarifu kravām uz Baltijas valstīm. Uzņēmumiem, kas vēl izmanto šo koridoru, atlicis mazāk par divas nedēļas pielāgoties.
-
-**Ko vērot:** Hokeja izlases turpmākais sniegums — spēles pret Somiju (21. maijs) un ASV (23. maijs) parādīs, vai uzvara pret Vāciju bija īsta līmeņa maiņa vai vienreizējs uzliesmojums.
+• Rīgas Stradiņa slimnīcā t
