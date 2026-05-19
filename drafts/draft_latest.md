@@ -135,5 +135,3 @@ Ieeja — bez maksas. Programma: latvia.icom.museum.lv
 • Latvijas Banka izlaidusi jaunu kolekcijas monētu ar līgavas vainaga motīvu.
 
 • Liepājas šosejas remontdarbi sākušies — plānojiet braucienus uz Kurzemi attiecīgi.
-
-• Rīgas Stradiņa slimnīcā t
