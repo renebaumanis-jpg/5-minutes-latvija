@@ -1,5 +1,3 @@
-Now I have enough information to create the newsletter. Let me compile the key stories from the coverage window (May 11-17, 2026):
-
 # 5 Minūtes Latvijā
 
 *Par ko Latvija runāja šonedēļ.*
@@ -8,103 +6,142 @@ Now I have enough information to create the newsletter. Let me compile the key s
 
 ## LATVIJAS GALVENIE STĀSTI
 
-### 1. Valdība krīt – dronu incidents aizdedz politisko sprādzienu
+### Valdība krita desmit dienu laikā
 
-**Kas notika:** Premjerministre Evika Siliņa paziņoja par atkāpšanos no amata 14. maijā. Tas automātiski nozīmē valdības krišanu, kas de facto jau notika trešdien, kad koalīcijas partija "Progresīvie" paziņoja, ka vairs neatbalsta šo valdību. Atkāpšanās seko dienām ilgai spriedzei koalīcijā pēc aizsardzības ministra Andra Sprūda atbrīvošanas, kas izraisīja politisku sacelšanos.
+Latvijas valdība sabruka ceturtdien pēc domstarpībām par to, kā Baltijas valsts reaģēja uz maldu Ukrainas droniem, kas ietriecās tās teritorijā netālu no Krievijas robežas. Premjerministre Evika Siliņa atkāpās, jo koalīcijas partneris atsauca savu atbalstu.
 
-**Kāpēc tas svarīgi:** Incidents ir pārbaudījums valstij, kas kopš 2022. gada saviem pilsoņiem stāsta, ka Latvija atrodas NATO austrumu flangā, tuvu pastāvīgiem Krievijas draudiem, un tāpēc jābūt gataviem jebkam. Oktobra parlamenta vēlēšanu kontekstā tas pārvēršas par krīzi īstajā brīdī.
+7. maijā divi droni ielidoja Latvijā no Krievijas gaisa telpas un trāpīja degvielas bāzē. Neviens necieta. Viens no tiem ietriecās (par laimi tukšās) cisternās degvielas noliktavā Rēzeknē. Vairākos pierobežas rajonos vēl pirms saullēkta tika paziņots brīdinājums par dronu apdraudējumu, taču pašā Rēzeknē trauksme izskanēja tikai tad, kad cilvēki jau varēja redzēt un dzirdēt dronus virs galvām.
 
-**Ko cilvēki saka:** Siliņa norādīja, ka "politiskā skaudība un šaurie partiju intereses guvušas virsroku pār atbildību," nosaucot potenciālo aizsardzības ministra kandidātu par "spēcīgu."
+Siliņa atlaida aizsardzības ministru Andri Sprudu pēc vairākiem incidentiem ar Ukrainas droniem. Sprūda Progresīvie pēc tam paziņoja, ka vairs neatbalstīs valdību.
 
-**Secinājums:** Droni bija iemesls, bet koalīcijas plaisas bija dziļākas un senākas.
-
----
-
-### 2. Ukrainas droni ietriecas Latvijā – Rēzeknes naftas bāzē sprādziens
-
-**Kas notika:** 7. maijā divi Ukrainas droni ienāca Latvijā no Krievijas un nokrita Latvijas teritorijā. Aizsardzības ministrs Andris Sprūds norādīja, ka tie, visticamāk, bijuši Ukrainas droni, kas vērsti pret mērķiem Krievijā un nejauši nokrītuši nepareizajā robežas pusē. Viens drons eksplodēja naftas glabātavā Rēzeknē, apmēram 40 km no Krievijas robežas.
-
-**Kāpēc tas svarīgi:** Rēzeknē tika slēgtas skolas, paziņoti gaisa trauksmes brīdinājumi trīs pašvaldībās, un iedzīvotāji ziņoja par sprādzienu skaņām. Franču NATO Baltijas gaisa telpas patrulēšanas lidmašīnas tika paceltas trauksmes laikā. Droni, kas ienāca Latvijas gaisa telpā, tika identificēti ar radaru, bet to notriekšana nebija iespējama, jo netika izpildīti visi drošības kritēriji.
-
-**Ko cilvēki saka:** Rēzeknes iedzīvotāji Latvijas Televīzijai stāstīja, ka saņēmuši brīdinājumu uz mobilā telefona tikai aptuveni stundu pēc tam, kad jau bija dzirdējuši dronu lidojam virs galvas.
-
-**Secinājums:** Aizsardzības izdevumu rekordus var apmaksāt, bet rezultātus nevar nopirkt bez funkcionējoša agrīnās brīdināšanas mehānisma.
+Valdības krīze sākās ar dronu triecienu, bet iemesls ir dziļāks — sistēmiska nespēja nodrošināt pienācīgu gaisa aizsardzību NATO priekšposteņa valstī. Incidents atklāja aizsardzības sistēmu, kas ir tālu no gatavības. Papildus pamatfaktam, ka droni netika pārtverti pie robežas un publiskie brīdinājumi pienāca par vēlu, valdības reakcija kavējās piecas stundas.
 
 ---
 
-### 3. airBaltic zaudējumi 2,4 reizes lielāki – 70 miljoni pirmajā ceturksnī
+### Opozīcijas pārstāvis veido jaunu valdību
 
-**Kas notika:** Latvijas nacionālā aviokompānija airBaltic pirmajā ceturksnī uzrādīja 70,1 miljona eiro zaudējumus, kas ir 2,4 reizes vairāk nekā 2025. gada pirmajā ceturksnī. Tikmēr airBaltic grupas ieņēmumi pieauga par 12,3%, sasniedzot 149,1 miljonu eiro. Aviokompānija pirmajā ceturksnī pārvadāja 1,5 miljonus pasažieru – par 10,9% vairāk nekā gadu iepriekš.
+Prezidents Edgars Rinkēvičs sestdien izvirzīja opozīcijas deputātu Andri Kulbergu, lai tas nomainītu atkāpušos Eviku Siliņu. "Ņemot vērā nesenod notikušo, es uzskatu, ka jaunajam premjeram jānāk no opozīcijas partijām," Rinkēvičs paziņoja preses konferencē.
 
-**Kāpēc tas svarīgi:** Aviokompānijas vadība uzskatīja par "saprātīgu" nesniegt finanšu prognozes 2026. gadam, atsaucoties uz degvielas cenu svārstībām, ģeopolitisko attīstību un iespējamo ietekmi uz gaisa telpas pieejamību. Latvijas valsts piešķīra papildu 30 miljonu eiro aizdevumu.
+Kulbergs uzsvēra, ka ir gatavs pieņemt nepatīkamus lēmumus, īpaši norādot uz airBaltic un Rail Baltica projektu kā iespējamiem šādu lēmumu adresātiem. Kulbergam ir laiks līdz 25. maijam, lai iesniegtu savu plānu prezidentam Rinkēvičam.
 
-**Ko cilvēki saka:** Erno Hildēns, airBaltic prezidents un izpilddirektors: "No operacionālā viedokļa pirmais ceturksnis airBaltic bija stabils. Tomēr aviācijas nozares darbības vide joprojām ir izaicinoša, un ārējie faktori turpina ietekmēt mūsu finanšu rezultātus."
+Kulbergs sacīja, ka cer izveidot "paplašinātu koalīciju", kas vadīs Latviju līdz parlamenta vēlēšanām 3. oktobrī.
 
-**Secinājums:** Pasažieru rekordi negarantē peļņu, kad degvielas cenas un valūtas svārstības nosaka galīgo rezultātu.
-
----
-
-### 4. Deep Tech Atelier Rīgā pulcē 2000 dalībnieku no 60 valstīm
-
-**Kas notika:** 14.–15. maijā Rīgā notika astotā Deep Tech Atelier konference – lielākais zinātnes un tehnoloģiju pasākums Ziemeļeiropā. Gadu gaitā konference kļuvusi par nozīmīgu platformu investīciju piesaistei, inovāciju komercializācijai un jaunu augstvērtīgu uzņēmumu attīstībai Latvijā un visā reģionā.
-
-**Kāpēc tas svarīgi:** Pasākumā, ko organizēja Latvijas Investīciju un attīstības aģentūra (LIAA), pulcējās vairāk nekā 2000 zinātnieku, tehnoloģiju uzņēmēju, jaunuzņēmumu, investoru un politikas veidotāju. Šā gada programma koncentrējās uz medicīnas tehnoloģijām un aizsardzības inovācijām.
-
-**Ko cilvēki saka:** "Deep tech ir viens no Latvijas nākotnes ekonomikas stūrakmeņiem," sacīja ekonomikas ministrs Viktors Valainis.
-
-**Secinājums:** Latvijas dziļo tehnoloģiju ekosistēma kļūst redzamāka starptautiski – jautājums ir par to, vai finansējums sekos.
+Latvija gadiem runāja par drošību. Pirmais īstais tests beidzās ar valdības krišanu.
 
 ---
 
-### 5. Saeimas komisija noraida degvielas solidaritātes nodevu
+### Rēzeknes naftas bāze beidz darbību
 
-**Kas notika:** 13. maijā Saeimas Tautsaimniecības, agrārās, vides un reģionālās politikas komisijas deputāti kritizēja un neatbalstīja ierosināto solidaritātes nodevu degvielas tirgotājiem. Komisija informēs Saeimas Budžeta un finanšu (nodokļu) komisiju, ka likumprojekts nav atbalstīts, un vēlas apsvērt citus atbalsta mehānismus degvielas cenu kāpuma ietekmes mazināšanai.
+Uzņēmums "East-West Transit" paziņojis, ka nespēj nodrošināt darbinieku drošību, tādēļ vadība nolēmusi pārtraukt Rēzeknes naftas bāzes darbību. Uzņēmums papildu komentārus nesniedza.
 
-**Kāpēc tas svarīgi:** Latvijas Degvielas tirgotāju asociācijas direktore Ieva Ligere norādīja, ka degvielas tirgotāji principiāli iebilst pret priekšlikumu, uzskatot, ka tas ir pretrunā ar brīvā tirgus principiem. "Tas nav peļņas nodoklis – tā ir tīra cenu regulācija. Tā ir politiska iniciatīva priekšvēlēšanu vidē."
+Ojārs Karčevskis, Latvijas Degvielas tirgotāju asociācijas valdes loceklis, LSM.lv norādīja, ka loģistika mainījusies pēc apvienošanās ar Kool grupu un Rēzeknes bāze to darbībai vairs nebija nepieciešama.
 
-**Ko cilvēki saka:** Asociācija skaidro, ka likumprojekts faktiski mēģina regulēt cenas, ko lielākoties nosaka faktori ārpus tirgotāju kontroles – aptuveni 93% degvielas cenas veido iepirkuma izmaksas un nodokļi.
+Drona trieciens izpildīja to, ko tirgus jau bija sācis. Tā nav traģēdija — tas ir signāls par Latvijas austrumu infrastruktūras nākotni.
 
-**Secinājums:** Valdības mēģinājums regulēt degvielas cenas politiski iestrēdzis – tikmēr cenas pie kolonnas nemainās.
+---
+
+### Vēl viens drons 17. maija naktī
+
+Nezināmas izcelsmes drons atkārtoti ielidoja Latvijas gaisa telpā 17. maija naktī un pēc kāda laika to pameta. Brīdinājums tika izsludināts piecu austrumu pierobežas pašvaldību iedzīvotājiem. Turklāt gaisā tika paceltas NATO Baltijas gaisa telpas patrulēšanas misijas iznīcinātāji.
+
+Saskaņā ar mediju ziņām, pēdējos mēnešos Lietuva, Somija, Igaunija un Latvija atkārtoti ziņojušas par Ukrainas bezpilota lidaparātu ielidošanu to gaisa telpā. Dažos gadījumos droni netika notriekti riska dēļ civīlajai infrastruktūrai un iedzīvotājiem.
+
+Dronu incidenti turpinās. Latvija joprojām brīnās, kāpēc sirēnas nestrādā.
+
+---
+
+### Rīgas maratons: rekords
+
+Rekordlieli 46 313 dalībnieki no 116 valstīm — lielākais Rimi Rīgas maratons vēsturē!
+
+Tas bija 16.-17. maija nedēļas nogalē. Artūrs Niklāvs Medveds kļuva par Latvijas čempionu un jauno Latvijas rekordistu DPD jūdzē.
+
+Rīgas maratons ir kļuvis par vienu no pilsētas vislielākajiem svētkiem — ne tikai sportam, bet identitātei.
 
 ---
 
 ## EKONOMIKA & IESPĒJAS
 
-### Inflācija aprīlī – 2,9% gadā
+### Krievija dubulto dzelzceļa tarifus Baltijai
 
-Centrālās statistikas pārvaldes dati liecina, ka aprīlī, salīdzinot ar martu, vidējais patēriņa cenu līmenis pieauga par 0,6%. Gada griezumā aprīlī rādītājs bija 2,9%. Vislielāko ietekmi uz mēneša cenu izmaiņām atstāja apģērbu un apavu, kā arī transporta grupas – galvenokārt degvielas – cenu pieaugums. Salīdzinot ar 2025. gadu, aprīlī patēriņa cenas bija par 3,3% augstākas. Preču cenas pieauga par 3,5%, bet pakalpojumu – par 3,3%. Mājsaimniecību budžetiem tas nozīmē, ka ietaupījumu iespējas sarūk, bet algu kāpums pārsniedz inflāciju.
+Sākot no 2026. gada 1. jūnija, Krievijas Federālais antimonopolu dienests noteicis dubultu koeficientu dzelzceļa kravu pārvadājumu tarifam uz Latviju, Igauniju un Somiju. Izņēmums ir pārvadājumi uz Kaļiņingradas dzelzceļa stacijām un Lietuvu.
 
-### Baltijas jaunuzņēmumi turpina piesaistīt kapitālu
+Ko tas nozīmē: tranzīta kravu apjomi, kas jau krituši kopš 2022. gada, turpinās samazināties. Latvijas ostas un dzelzceļš kļūst arvien mazāk relevanti Austrumu-Rietumu loģistikā.
 
-Baltijas jaunuzņēmumu ekosistēma kļūst par vienu no Eiropas izmantojamākajām vietām, kur veidot MI uzņēmumu – pateicoties augošam finansējumam, vairāk nekā 22 aktīvām kopienām un atbalsta infrastruktūrai visās trijās valstīs. Baltijas jaunuzņēmumi 2025. gadā piesaistīja 607 miljonus eiro, salīdzinot ar 505 miljoniem 2024. gadā, un MI piesaistīja 46% no visa riska kapitāla reģionā. Latvijā apstiprināta nacionālā fintech stratēģija ciešā sadarbībā starp valdību, regulatoriem un nozares partneriem. Latvijas jaunuzņēmumu dibinātājiem arvien mazāk jāskatās uz Rietumiem – reģionālā nauda ir pieejama.
+---
+
+### Virši pārņem 17 Astarte degvielas stacijas
+
+Pēc šo staciju pārņemšanas Virši degvielas uzpildes staciju kopējais skaits pieaugs no 84 līdz 101, kas ir nozīmīga uzņēmuma tīkla paplašināšanās Latvijas reģionos.
+
+Latvijas degvielas tirgus konsolidējas. Reģionālajos ciematos Virši kļūst par noklusējuma izvēli.
 
 ---
 
 ## INTERNETS & KULTŪRA
 
-### Atvara Eirovīzijā – Latvija pusfinālā apstājas
+### Eurovīzijā bez Latvijas
 
-Latvijas pārstāve Atvara ar dziesmu "Ēnā" Eirovīzijas 2026 otrajā pusfinālā Vīnē ieguva 49 punktus un ierindojās 13. vietā, neiekļūstot finālā. Otrais pusfināls notika ceturtdien, 14. maijā, Vīnē, Austrijā.
+Latvija ieņēma 13. vietu Eurovision 2026 otrajā pusfinālā ar 49 punktiem. Atvara saņēma 49 punktus: 28 no žūrijas un 21 no skatītāju balsojuma.
 
-Atvara ir 33 gadus vecas dziedātājas-dziesmu autores Lienes Atvaras skatuves vārds. Viņa no Liepājas, un jau agrīnā vecumā tika sūtīta uz mūzikas skolu, kur apguva džeza un popmūzikas vokāla stilus. Atvara plašāku atpazīstamību ieguva ar savu pirmo singlu "Pie Manis Tveries," kas kļuva populārs TikTok.
+70. Eirovīzijas Dziesmu konkursā Latvijas pārstāve dziedātāja Atvara nav kvalificējusies lielajam finālam. Pagājušogad Tautumeitas kvalificējās un finālā ieņēma 13. vietu, savukārt gadu pirms tam Dons ierindojās 16. vietā.
 
-Latvijas internets reaģēja ar jauktām emocijām – daļa fanu aizstāvēja autentisku latviešu valodas dziesmu izvēli, citi norādīja uz scenogrāfijas trūkumiem. Diskusija par to, vai Latvijai vajadzētu Eirovīzijai sūtīt angļu vai latviešu valodas dziesmas, turpinās katru gadu – rezultāts nemainās.
+Lielais uzvarētājs — Bulgārijas Dara ar "Bangaranga", iegūstot 516 punktus. Monumentālā rezultātā 70. konkursā mēs redzējām Bulgāriju iegūstam pirmo uzvaru vēsturē.
+
+Latvija ar Atvaru un dziļi personīgo "Ēnā" devās uz Vīni ar cerībām. Dziesma par atkarību ģimenē — smaga, patiesa, latviska. Finālā neiekļuvām, bet vismaz bija kas teikt.
 
 ---
 
 ## SPORTS & MOMENTI
 
-### Latvijas hokejisti ar uzvaru pār Vāciju iesāk PČ
+### Hokejs: Latvija pārliecinoši pret Vāciju
 
-Latvija pasaules čempionātā Cīrihē ar 2:0 uzvarēja Vāciju. Mārtinš Dzierkals un kapteiņis Rūdolfs Balcers guva vārtus, nodrošinot pirmo 2026. gada uzvaru. Latvijas vārtsargs Kristers Gudļevskis nospēlēja lieliski, atvairot 25 metienus un sasniedzot "sausā" spēli.
+Latvijas daudzajiem hokeja faniem pirmdienas rīts sākās ar pavasara noskaņu pēc tam, kad viņu komanda svētdien vakarā izcīnīja svarīgu uzvaru pār Vāciju. Latvijas jaunā komanda pārspēja valdošos Eiropas čempionus 2:0 iespaidīgā kolektīvā sniegumā Šveicē. Mārtiņš Dzierkalns atklāja rezultātu pirmā perioda beigās, bet Rūdolfs Balcers dubultoja Latvijas pārsvaru otrajā periodā.
 
-Pirms tam Latvijas izlase atklāja turnīru sestdienas vakarā pret mājinieci Šveici, zaudējot 4:2. Latvijas izlase IIHF rangā ir 10. vietā, bet grupu turnīrā mērķis ir pierādīt, ka komanda spēj sasniegt ceturtdaļfinālu. Nākamā spēle – pret Austriju otrdien, 19. maijā. Tieši pret austriešiem pagājušajā čempionātā Latvija zaudēja izšķirošo maču un palika bez izslēgšanas spēlēm.
+Latvijas vārtsargs Kristers Gudļevskis bija pilnībā pelnījis "sauso" spēli duelī ar Vācijas NHL vārtsargu Filipu Grubaueru.
+
+Pirms tam Latvijas izlase zaudēja pirmo grupu spēli mājiniecei un pagājušā gada finālistei Šveicei.
+
+Hokeja pavasaris Latvijā ir reliģija. Uzvara pret Vāciju ir tas, kas atnes sarunas pie kafijas šorīt.
 
 ---
 
 ## KO DARĪT ŠONEDĒĻ
 
-### Jimi Tenor koncerts Hanzas Peronā
-**Rīga · Sestdiena, 23. maijs · 20:00**
+### Muzeju nakts — sestdien, 23. maijs
 
-Somu avangarda mūziķis Jimi Tenor uzstāsies Hanzas Peronā. Tas ir dzīvā elektroniskās un eksperimentālās mūzikas vakars cilvēkiem, kuri paguruši no playlists algoritmiem. Tenor apvieno džezu, funku un elektroniku – viņa šovi ir neparedzami un telpiski bagāti. Labs variants tiem, kas meklē kultūras pieredzi ārpus ierastajām viet
+Šogad Muzeju nakts notiks 22. reizi sestdien, 23. maijā. Šī gada tēma "Priekšmeta piedzīvojumi" aicina apmeklētājus atklāt stāstus, kas slēpjas aiz šķietami ikdienišķiem priekšmetiem. Gandrīz 250 muzeji un kultūras vietas visā Latvijā piedalīsies Muzeju nakts pasākumos.
+
+Šogad 82 kultūras objekti uzņems apmeklētājus Rīgā un tās apkārtnē, 51 Vidzemē, 49 Kurzemē, 39 Latgalē un 25 Zemgalē.
+
+Ieeja bez maksas.
+
+Kam: ikvienam, kas vēlas redzēt muzeju citādāk — naktī, bez steigas, ar programmām, kas pieejamas tikai šajā naktī.
+
+---
+
+## ĀTRIE JAUNUMI
+
+- Kamēr Kulbergs veido jauno valdību, iepriekšējā koalīcija turpina darbu pagaidu statusā.
+
+- Finanšu ministrija paaugstinājusi inflācijas prognozi 2026. gadam līdz 2,9%, salīdzinot ar 2,3% prognozi pagājušā gada jūnijā.
+
+- Gada inflācija martā pieauga līdz 3,4% — augstākais līmenis kopš 2025. gada decembra.
+
+- Liepājas šosejas remontdarbi sākušies — plāno ceļotājus attiecīgi.
+
+- Nākamās Saeimas vēlēšanas notiks 2026. gada 3. oktobrī.
+
+- Eurovision 2026 bija konkursa 70. izlaidums. Tajā piedalījās 35 valstis — mazākais skaits kopš pusfinālu ieviešanas 2004. gadā.
+
+- Hokeja pasaules čempionāts notiek Šveicē no 15. līdz 31. maijam.
+
+---
+
+## NEDĒĻAS NOVĒROJUMS
+
+**Novērojums:** Latvija šonedēļ piedzīvoja valdības krīzi, ko izraisīja nevis politisks skandāls, bet gan dronu incidents, kas atklāja aizsardzības sistēmas nepilnības. Tehnoloģija pārbaudīja valsti — un valsts nebija gatava.
+
+**Prognoze:** Kulbergs veidos plašu, bet īslaicīgu koalīciju, kas turēsies līdz oktobra vēlēšanām. Neviens nevēlēsies uzņemties ilgtermiņa atbildību — visi domās par kampaņu.
+
+**Sekot līdzi:** Kā tālāk attīstīsies Latvijas gaisa aizsardzības jautājums — vai būs reāli risinājumi vai tikai politiskas deklarācijas pirms vēlēšanām.
