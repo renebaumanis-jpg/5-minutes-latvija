@@ -270,22 +270,18 @@
     </div>
 
     <!-- Share section -->
-    <div style="border-top:1px solid #d0ccc0;margin-top:40px;padding-top:32px;text-align:center;">
-      <span style="font-family:'Inter',-apple-system,sans-serif;font-size:10px;font-weight:700;letter-spacing:3px;text-transform:uppercase;color:#888;display:block;margin-bottom:20px;">Kopīgo izdevumu</span>
-      <div style="display:flex;gap:12px;justify-content:center;flex-wrap:wrap;">
-        
-        <!-- Native share (mobile) -->
-        <button id="native-share" onclick="nativeShare()" style="display:none;background:#1a1a1a;color:#fbf9f3;border:none;font-family:'Inter',-apple-system,sans-serif;font-size:11px;font-weight:700;letter-spacing:2px;text-transform:uppercase;padding:13px 24px;cursor:pointer;">
-          Kopīgot →
-        </button>
+    <div style="margin-top:32px;padding-top:24px;border-top:1px solid #d0ccc0;display:flex;align-items:center;gap:16px;flex-wrap:wrap;">
+      <span style="font-family:'Inter',-apple-system,sans-serif;font-size:11px;color:#888;">Kopīgo:</span>
 
-        <!-- Copy link -->
-        <button id="copy-btn" onclick="copyLink()" style="background:transparent;color:#1a1a1a;border:1.5px solid #1a1a1a;font-family:'Inter',-apple-system,sans-serif;font-size:11px;font-weight:700;letter-spacing:2px;text-transform:uppercase;padding:13px 24px;cursor:pointer;transition:all 0.18s;">
-          Kopēt saiti
-        </button>
+      <button id="native-share" onclick="nativeShare()" style="display:none;background:none;border:none;font-family:'Inter',-apple-system,sans-serif;font-size:11px;color:#9e1c20;font-weight:600;cursor:pointer;padding:0;text-decoration:underline;">
+        Kopīgot →
+      </button>
 
-      </div>
-      <p id="copy-confirm" style="font-family:Georgia,serif;font-size:13px;font-style:italic;color:#9e1c20;margin-top:12px;display:none;">Saite nokopēta.</p>
+      <button id="copy-btn" onclick="copyLink()" style="background:none;border:none;font-family:'Inter',-apple-system,sans-serif;font-size:11px;color:#9e1c20;font-weight:600;cursor:pointer;padding:0;text-decoration:underline;">
+        Kopēt saiti
+      </button>
+
+      <span id="copy-confirm" style="font-family:Georgia,serif;font-size:11px;font-style:italic;color:#888;display:none;">Nokopēts.</span>
     </div>
 
     <!-- CTA after reading -->
