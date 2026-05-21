@@ -254,7 +254,7 @@
 
   <div class="masthead">
     <div class="rule-black-thin"></div>
-    <span class="masthead-date">Pēdējais izdevums &nbsp;·&nbsp; Otrdienās plkst. 10:00</span>
+    <span class="masthead-date">Pēdējais izdevums &nbsp;·&nbsp; Otrdienās plkst. 10:00 &nbsp;·&nbsp; <span id="coverage-dates"></span></span>
     <div class="rule-black-thin"></div>
     <h1>
       <span class="red">5 Minūtes</span><br>
@@ -400,6 +400,23 @@ function formatInline(text) {
 // Share functionality
 const shareUrl = 'https://piecasminutes.lv/izdevums.html';
 const shareText = 'Izlasi, ko Latvijā notika šonedēļ — 5 Minūtes Latvijā';
+
+function getCoverageDates() {
+  // Calculate previous Mon-Sun from today
+  const today = new Date();
+  const day = today.getDay(); // 0=Sun, 1=Mon...
+  const daysToLastSun = day === 0 ? 7 : day;
+  const lastSun = new Date(today);
+  lastSun.setDate(today.getDate() - daysToLastSun);
+  const lastMon = new Date(lastSun);
+  lastMon.setDate(lastSun.getDate() - 6);
+
+  const months = ['janv.','febr.','marts','apr.','maijs','jūn.','jūl.','aug.','sept.','okt.','nov.','dec.'];
+  const fmtShort = d => `${d.getDate()}. ${months[d.getMonth()]}`;
+  return `${fmtShort(lastMon)} – ${fmtShort(lastSun)} ${lastSun.getFullYear()}`;
+}
+
+document.getElementById('coverage-dates').textContent = getCoverageDates();
 
 // Show native share button on mobile
 if (navigator.share) {

@@ -509,8 +509,13 @@ def markdown_to_html(markdown_text: str, subscriber_email: str = "") -> str:
     today = datetime.now()
     masthead_date = format_latvian_date_short(today)
     masthead_weekday = LATVIAN_WEEKDAYS[today.weekday()]
+    # Coverage window
+    coverage_start, coverage_end = get_coverage_window(today)
+    cov_start_short = format_latvian_date_short(coverage_start)
+    cov_end_short = format_latvian_date_short(coverage_end)
+    coverage_display = f"{cov_start_short} – {cov_end_short}"
     # Display: "12. maijs · Otrdiena"
-    masthead_display = f"{masthead_date} &nbsp;·&nbsp; {masthead_weekday}"
+    masthead_display = f"{masthead_date} &nbsp;·&nbsp; {masthead_weekday} &nbsp;·&nbsp; {coverage_display}"
 
     # Unsubscribe instruction — manual reply method
     unsub_line = (
@@ -638,16 +643,6 @@ def markdown_to_html(markdown_text: str, subscriber_email: str = "") -> str:
               <p style="font-family:Georgia,serif;font-size:15px;color:#888;
                         line-height:1.6;margin:28px 0 0 0;text-align:center;font-style:italic">
                 Tās ir piecas minūtes. Tiekamies nākamajā otrdienā.
-              </p>
-
-              <!-- Share line -->
-              <p style="font-family:Georgia,serif;font-size:13px;color:#888;
-                        line-height:1.6;margin:16px 0 0 0;text-align:center;">
-                Kopīgo ar draugu:
-                <a href="https://piecasminutes.lv/izdevums.html"
-                   style="color:#9e1c20;text-decoration:none;font-weight:600;">
-                  piecasminutes.lv/izdevums.html
-                </a>
               </p>
             </td>
           </tr>
