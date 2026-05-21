@@ -639,6 +639,16 @@ def markdown_to_html(markdown_text: str, subscriber_email: str = "") -> str:
                         line-height:1.6;margin:28px 0 0 0;text-align:center;font-style:italic">
                 Tās ir piecas minūtes. Tiekamies nākamajā otrdienā.
               </p>
+
+              <!-- Share line -->
+              <p style="font-family:Georgia,serif;font-size:13px;color:#888;
+                        line-height:1.6;margin:16px 0 0 0;text-align:center;">
+                Kopīgo ar draugu:
+                <a href="https://piecasminutes.lv/izdevums.html"
+                   style="color:#9e1c20;text-decoration:none;font-weight:600;">
+                  piecasminutes.lv/izdevums.html
+                </a>
+              </p>
             </td>
           </tr>
 
@@ -720,107 +730,6 @@ def draft_mode():
         print("Failed to send draft to editor.")
 
 
-def update_web_version(markdown_content: str, date) -> None:
-    """Convert draft_latest.md to HTML and write into izdevums.html for the website."""
-
-    def fmt(text):
-        text = re.sub(r'\*\*(.+?)\*\*', r'<strong>\1</strong>', text)
-        text = re.sub(r'\*(.+?)\*', r'<em>\1</em>', text)
-        text = re.sub(r'\[(.+?)\]\((.+?)\)', r'<a href="\2" style="color:#9e1c20;">\1</a>', text)
-        return text
-
-    lines = markdown_content.strip().split('\n')
-    body_html = ''
-    i = 0
-    while i < lines.length if hasattr(lines, 'length') else len(lines):
-        line = lines[i]
-
-        if line.startswith('# ') or (line.startswith('*') and line.endswith('*') and 'Par ko' in line):
-            i += 1; continue
-
-        if line.startswith('## '):
-            section = line[3:].strip()
-            if section == 'ŠONEDĒĻ':
-                i += 1
-                while i < len(lines) and lines[i].strip() == '': i += 1
-                content = ''
-                while i < len(lines) and lines[i].strip() and not lines[i].startswith('#') and lines[i].strip() != '---':
-                    content += lines[i] + ' '
-                    i += 1
-                body_html += f'<h2 style="font-family:sans-serif;font-size:10px;font-weight:700;letter-spacing:3px;text-transform:uppercase;color:#9e1c20;margin:40px 0 0;padding-top:20px;border-top:2px solid #1a1a1a;">{section}</h2>'
-                body_html += f'<p style="font-family:Georgia,serif;font-size:20px;line-height:1.5;color:#1a1a1a;font-style:italic;padding:24px 0;border-bottom:1px solid #d0ccc0;margin-bottom:32px;">{fmt(content.strip())}</p>'
-                continue
-            body_html += f'<h2 style="font-family:sans-serif;font-size:10px;font-weight:700;letter-spacing:3px;text-transform:uppercase;color:#9e1c20;margin:40px 0 16px;padding-top:20px;border-top:2px solid #1a1a1a;">{section}</h2>'
-            i += 1; continue
-
-        if line.startswith('### '):
-            body_html += f'<h3 style="font-family:Georgia,serif;font-size:22px;font-weight:700;color:#1a1a1a;line-height:1.2;letter-spacing:-0.5px;margin:32px 0 14px;">{fmt(line[4:].strip())}</h3>'
-            i += 1; continue
-
-        if line.strip() == '---':
-            body_html += '<hr style="border:none;border-top:1px solid #d0ccc0;margin:32px 0;">'
-            i += 1; continue
-
-        if line.startswith('• ') or line.startswith('- '):
-            body_html += f'<p style="font-family:Georgia,serif;font-size:15px;line-height:1.6;color:#3a3a3a;padding:10px 0 10px 24px;border-bottom:1px solid #d0ccc0;position:relative;">— {fmt(line[2:].strip())}</p>'
-            i += 1; continue
-
-        if line.strip():
-            body_html += f'<p style="font-family:Georgia,serif;font-size:15.5px;line-height:1.78;color:#3a3a3a;margin-bottom:14px;">{fmt(line.strip())}</p>'
-
-        i += 1
-
-    masthead_date = f"{date.day}. {LATVIAN_MONTHS[date.month]} {date.year}"
-
-    html = f"""<!DOCTYPE html>
-<html lang="lv">
-<head>
-<meta charset="UTF-8">
-<meta name="color-scheme" content="light only">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>5 Minūtes Latvijā · {masthead_date}</title>
-<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;800&display=swap" rel="stylesheet">
-</head>
-<body style="margin:0;padding:56px 20px;background:#e8e4da;font-family:Georgia,serif;">
-<div style="max-width:640px;margin:0 auto;background:#fbf9f3;box-shadow:0 2px 40px rgba(0,0,0,0.07);">
-
-  <div style="height:2px;background:#9e1c20;"></div>
-
-  <div style="padding:52px 60px 44px;text-align:center;">
-    <div style="height:1px;background:#1a1a1a;"></div>
-    <span style="font-family:sans-serif;font-size:10px;font-weight:500;letter-spacing:3px;text-transform:uppercase;color:#888;display:block;margin:20px 0;">Otrdienās plkst. 10:00 &nbsp;·&nbsp; {masthead_date}</span>
-    <div style="height:1px;background:#1a1a1a;"></div>
-    <h1 style="font-family:'Playfair Display',Georgia,serif;font-size:64px;font-weight:800;line-height:0.92;letter-spacing:-2.5px;margin:22px 0;">
-      <span style="color:#9e1c20;">5 Minūtes</span><br>
-      <span style="color:#1a1a1a;">Latvijā</span>
-    </h1>
-    <div style="height:2px;background:#1a1a1a;"></div>
-    <p style="font-family:sans-serif;font-size:10px;font-weight:500;letter-spacing:3px;text-transform:uppercase;color:#888;margin:20px 0 0;">Par ko Latvija runāja šonedēļ</p>
-  </div>
-
-  <div style="padding:40px 60px 56px;">
-    {body_html}
-
-    <div style="background:#1a1a1a;padding:32px 40px;margin:48px 0 0;text-align:center;">
-      <p style="font-family:sans-serif;font-size:11px;font-weight:500;letter-spacing:2px;text-transform:uppercase;color:#888;margin-bottom:16px;">Saņem katru otrdienu plkst. 10:00</p>
-      <a href="https://piecasminutes.lv" style="display:inline-block;background:#9e1c20;color:#fbf9f3;font-family:sans-serif;font-size:11px;font-weight:700;letter-spacing:2.5px;text-transform:uppercase;text-decoration:none;padding:14px 32px;">Pierakstīties</a>
-    </div>
-  </div>
-
-  <div style="background:#1a1a1a;padding:28px 60px;display:flex;justify-content:space-between;align-items:center;">
-    <span style="font-family:Georgia,serif;font-size:14px;font-weight:700;color:#fbf9f3;"><span style="color:#9e1c20;">5 Minūtes</span> Latvijā</span>
-    <span style="font-family:sans-serif;font-size:10px;font-weight:500;letter-spacing:2px;text-transform:uppercase;color:#888;">Otrdienās · 10:00 · ~5 min</span>
-  </div>
-
-</div>
-</body>
-</html>"""
-
-    with open("izdevums.html", "w", encoding="utf-8") as f:
-        f.write(html)
-    print("Web version updated: izdevums.html")
-
-
 def send_mode():
     """
     TUESDAY 10:00 EET — send the approved draft to all subscribers.
@@ -865,9 +774,6 @@ def send_mode():
             sent += 1
 
     print(f"Issue #{issue_number} sent to {sent}/{len(subscribers)} subscribers.")
-
-    # Update web version of the latest issue
-    update_web_version(markdown_content, today)
 
 
 if __name__ == "__main__":

@@ -269,8 +269,27 @@
       <!-- Content rendered by JS from markdown -->
     </div>
 
+    <!-- Share section -->
+    <div style="border-top:1px solid #d0ccc0;margin-top:40px;padding-top:32px;text-align:center;">
+      <span style="font-family:'Inter',-apple-system,sans-serif;font-size:10px;font-weight:700;letter-spacing:3px;text-transform:uppercase;color:#888;display:block;margin-bottom:20px;">Kopīgo izdevumu</span>
+      <div style="display:flex;gap:12px;justify-content:center;flex-wrap:wrap;">
+        
+        <!-- Native share (mobile) -->
+        <button id="native-share" onclick="nativeShare()" style="display:none;background:#1a1a1a;color:#fbf9f3;border:none;font-family:'Inter',-apple-system,sans-serif;font-size:11px;font-weight:700;letter-spacing:2px;text-transform:uppercase;padding:13px 24px;cursor:pointer;">
+          Kopīgot →
+        </button>
+
+        <!-- Copy link -->
+        <button id="copy-btn" onclick="copyLink()" style="background:transparent;color:#1a1a1a;border:1.5px solid #1a1a1a;font-family:'Inter',-apple-system,sans-serif;font-size:11px;font-weight:700;letter-spacing:2px;text-transform:uppercase;padding:13px 24px;cursor:pointer;transition:all 0.18s;">
+          Kopēt saiti
+        </button>
+
+      </div>
+      <p id="copy-confirm" style="font-family:Georgia,serif;font-size:13px;font-style:italic;color:#9e1c20;margin-top:12px;display:none;">Saite nokopēta.</p>
+    </div>
+
     <!-- CTA after reading -->
-    <div style="border-top:2px solid #1a1a1a;margin-top:48px;padding-top:36px;text-align:center;">
+    <div style="border-top:2px solid #1a1a1a;margin-top:40px;padding-top:36px;text-align:center;">
       <span style="font-family:'Inter',-apple-system,sans-serif;font-size:10px;font-weight:700;letter-spacing:3px;text-transform:uppercase;color:#9e1c20;display:block;margin-bottom:16px;">Katru otrdienu plkst. 10:00</span>
       <h2 style="font-family:'Playfair Display',Georgia,serif;font-size:28px;font-weight:800;color:#1a1a1a;letter-spacing:-0.5px;margin-bottom:12px;line-height:1.2;">Saņem nākamo izdevumu.</h2>
       <p style="font-family:Georgia,serif;font-size:15px;font-style:italic;color:#888;margin-bottom:28px;line-height:1.6;">Bezmaksas. Atrakstīties jebkurā brīdī.</p>
@@ -380,6 +399,50 @@ function formatInline(text) {
     .replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>')
     .replace(/\*(.+?)\*/g, '<em>$1</em>')
     .replace(/\[(.+?)\]\((.+?)\)/g, '<a href="$2" style="color:#9e1c20;">$1</a>');
+}
+
+// Share functionality
+const shareUrl = 'https://piecasminutes.lv/izdevums.html';
+const shareText = 'Izlasi, ko Latvijā notika šonedēļ — 5 Minūtes Latvijā';
+
+// Show native share button on mobile
+if (navigator.share) {
+  document.getElementById('native-share').style.display = 'inline-block';
+}
+
+function nativeShare() {
+  navigator.share({
+    title: '5 Minūtes Latvijā',
+    text: shareText,
+    url: shareUrl
+  }).catch(() => {});
+}
+
+function copyLink() {
+  navigator.clipboard.writeText(shareUrl).then(() => {
+    const btn = document.getElementById('copy-btn');
+    const confirm = document.getElementById('copy-confirm');
+    btn.textContent = '✓ Nokopēts';
+    confirm.style.display = 'block';
+    setTimeout(() => {
+      btn.textContent = 'Kopēt saiti';
+      confirm.style.display = 'none';
+    }, 2500);
+  }).catch(() => {
+    // Fallback for older browsers
+    const el = document.createElement('textarea');
+    el.value = shareUrl;
+    document.body.appendChild(el);
+    el.select();
+    document.execCommand('copy');
+    document.body.removeChild(el);
+    document.getElementById('copy-btn').textContent = '✓ Nokopēts';
+    document.getElementById('copy-confirm').style.display = 'block';
+    setTimeout(() => {
+      document.getElementById('copy-btn').textContent = 'Kopēt saiti';
+      document.getElementById('copy-confirm').style.display = 'none';
+    }, 2500);
+  });
 }
 
 loadNewsletter();
