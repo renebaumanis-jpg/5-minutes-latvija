@@ -30,10 +30,10 @@ jobs:
           UNSUB_BASE_URL: ${{ secrets.UNSUB_BASE_URL }}
         run: python newsletter.py send
 
-      - name: Commit issue counter and archive
+      - name: Commit issue counter, archive and web version
         run: |
           git config user.name "Newsletter Bot"
           git config user.email "actions@github.com"
-          git add issue_counter.txt sent_issues/
+          git add issue_counter.txt sent_issues/ izdevums.html
           git diff --staged --quiet || git commit -m "Issue #$(cat issue_counter.txt) sent $(date +'%Y-%m-%d')"
           git push

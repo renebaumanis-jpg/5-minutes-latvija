@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="lv">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Pēdējais izdevums — 5 Minūtes Latvijā</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;0,800;1,400&family=Inter:wght@300;400;500;600&display=swap');
+
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+  :root {
+    --paper:   #fbf9f3;
+    --bg:      #e8e4da;
+    --ink:     #1a1a1a;
+    --soft:    #3a3a3a;
+    --muted:   #888;
+    --rule:    #d0ccc0;
+    --red:     #9e1c20;
+    --serif:   'Playfair Display', Georgia, 'Times New Roman', serif;
+    --sans:    'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+  }
+
+  html, body {
+    background: var(--bg);
+    color: var(--ink);
+    font-family: var(--serif);
+    -webkit-font-smoothing: antialiased;
+  }
+
+  body {
+    min-height: 100vh;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 56px 20px;
+  }
+
+  .paper {
+    width: 100%;
+    max-width: 640px;
+    background: var(--paper);
+    box-shadow: 0 2px 40px rgba(0,0,0,0.07);
+  }
+
+  .rule-red { height: 2px; background: var(--red); width: 100%; }
+  .rule-black-thin { height: 1px; background: var(--ink); width: 100%; }
+  .rule-black-thick { height: 2px; background: var(--ink); width: 100%; }
+
+  .masthead {
+    padding: 52px 60px 44px;
+    text-align: center;
+  }
+
+  .masthead-date {
+    font-family: var(--sans);
+    font-size: 10px;
+    font-weight: 500;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: var(--muted);
+    display: block;
+    margin: 20px 0;
+  }
+
+  h1 {
+    font-family: var(--serif);
+    font-size: clamp(48px, 10vw, 68px);
+    font-weight: 800;
+    line-height: 0.92;
+    letter-spacing: -2.5px;
+    margin: 22px 0;
+  }
+
+  h1 .red { color: var(--red); }
+  h1 .ink { color: var(--ink); }
+
+  .pub-line {
+    font-family: var(--sans);
+    font-size: 10px;
+    font-weight: 500;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: var(--muted);
+    margin: 20px 0 0;
+  }
+
+  .body {
+    padding: 40px 60px 56px;
+  }
+
+  /* Newsletter content styles */
+  .content h2 {
+    font-family: var(--sans);
+    font-size: 10px;
+    font-weight: 700;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: var(--red);
+    margin: 40px 0 20px;
+    padding-top: 20px;
+    border-top: 2px solid var(--ink);
+  }
+
+  .content h3 {
+    font-family: var(--serif);
+    font-size: 22px;
+    font-weight: 700;
+    color: var(--ink);
+    line-height: 1.2;
+    letter-spacing: -0.5px;
+    margin: 32px 0 14px;
+  }
+
+  .content p {
+    font-family: var(--serif);
+    font-size: 15.5px;
+    line-height: 1.78;
+    color: var(--soft);
+    margin-bottom: 14px;
+  }
+
+  .content strong {
+    color: var(--ink);
+    font-weight: 700;
+  }
+
+  .content em {
+    font-style: italic;
+  }
+
+  .content hr {
+    border: none;
+    border-top: 1px solid var(--rule);
+    margin: 32px 0;
+  }
+
+  .content ul {
+    list-style: none;
+    margin: 16px 0;
+  }
+
+  .content ul li {
+    font-family: var(--serif);
+    font-size: 15px;
+    line-height: 1.6;
+    color: var(--soft);
+    padding: 10px 0 10px 24px;
+    border-bottom: 1px solid var(--rule);
+    position: relative;
+  }
+
+  .content ul li::before {
+    content: '—';
+    color: var(--red);
+    position: absolute;
+    left: 0;
+  }
+
+  .content blockquote {
+    border-left: 2px solid var(--red);
+    padding-left: 20px;
+    margin: 20px 0;
+    font-style: italic;
+    color: var(--soft);
+  }
+
+  /* ŠONEDĒĻ special styling */
+  .sonedel {
+    font-family: var(--serif);
+    font-size: 20px;
+    line-height: 1.5;
+    color: var(--ink);
+    font-style: italic;
+    padding: 24px 0;
+    border-top: 1px solid var(--rule);
+    border-bottom: 1px solid var(--rule);
+    margin-bottom: 32px;
+  }
+
+  .cta-box {
+    background: var(--ink);
+    padding: 32px 40px;
+    margin: 48px 0 0;
+    text-align: center;
+  }
+
+  .cta-box p {
+    font-family: var(--sans);
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: var(--muted);
+    margin-bottom: 16px;
+  }
+
+  .cta-box a {
+    display: inline-block;
+    background: var(--red);
+    color: var(--paper);
+    font-family: var(--sans);
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 2.5px;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 14px 32px;
+  }
+
+  .cta-box a:hover { background: #7d1519; }
+
+  .footer {
+    background: var(--ink);
+    padding: 28px 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 12px;
+  }
+
+  .footer-brand {
+    font-family: var(--serif);
+    font-size: 14px;
+    font-weight: 700;
+    color: var(--paper);
+    letter-spacing: -0.3px;
+  }
+
+  .footer-brand span { color: var(--red); }
+
+  .footer-meta {
+    font-family: var(--sans);
+    font-size: 10px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #888;
+  }
+
+  @media (max-width: 520px) {
+    .masthead, .body, .footer { padding-left: 28px; padding-right: 28px; }
+    .cta-box { padding: 24px 28px; }
+    .footer { flex-direction: column; align-items: flex-start; }
+  }
+</style>
+</head>
+<body>
+
+<div class="paper">
+
+  <div class="rule-red"></div>
+
+  <div class="masthead">
+    <div class="rule-black-thin"></div>
+    <span class="masthead-date">Pēdējais izdevums &nbsp;·&nbsp; Otrdienās plkst. 10:00</span>
+    <div class="rule-black-thin"></div>
+    <h1>
+      <span class="red">5 Minūtes</span><br>
+      <span class="ink">Latvijā</span>
+    </h1>
+    <div class="rule-black-thick"></div>
+    <p class="pub-line">Par ko Latvija runāja šonedēļ</p>
+  </div>
+
+  <div class="body">
+    <div class="content" id="newsletter-content">
+      <!-- Content rendered by JS from markdown -->
+    </div>
+
+    <div class="cta-box">
+      <p>Saņem katru otrdienu plkst. 10:00</p>
+      <a href="/">Pierakstīties</a>
+    </div>
+  </div>
+
+  <div class="footer">
+    <span class="footer-brand"><span>5 Minūtes</span> Latvijā</span>
+    <span class="footer-meta">Otrdienās · 10:00 · ~5 min</span>
+  </div>
+
+</div>
+
+<script>
+// Simple markdown renderer for the newsletter format
+async function loadNewsletter() {
+  try {
+    const res = await fetch('/drafts/draft_latest.md');
+    const md = await res.text();
+    document.getElementById('newsletter-content').innerHTML = renderMD(md);
+  } catch(e) {
+    document.getElementById('newsletter-content').innerHTML = '<p style="color:#888;font-style:italic;">Izdevums tiek sagatavots. Atgriezies otrdienā plkst. 10:00.</p>';
+  }
+}
+
+function renderMD(md) {
+  let html = '';
+  const lines = md.split('\n');
+  let i = 0;
+  let inList = false;
+
+  while (i < lines.length) {
+    const line = lines[i];
+
+    // Skip h1 (newsletter title)
+    if (line.startsWith('# ')) { i++; continue; }
+
+    // Skip italic tagline
+    if (line.startsWith('*Par ko') && line.endsWith('*')) { i++; continue; }
+
+    // H2 section headers
+    if (line.startsWith('## ')) {
+      if (inList) { html += '</ul>'; inList = false; }
+      const text = line.replace('## ', '');
+      if (text === 'ŠONEDĒĻ') {
+        // Special ŠONEDĒĻ block — collect next paragraph
+        i++;
+        while (i < lines.length && lines[i].trim() === '') i++;
+        let content = '';
+        while (i < lines.length && lines[i].trim() !== '' && !lines[i].startsWith('#') && !lines[i].startsWith('---')) {
+          content += lines[i] + ' ';
+          i++;
+        }
+        html += `<h2>${text}</h2><div class="sonedel">${content.trim()}</div>`;
+        continue;
+      }
+      html += `<h2>${text}</h2>`;
+      i++; continue;
+    }
+
+    // H3 story headlines
+    if (line.startsWith('### ')) {
+      if (inList) { html += '</ul>'; inList = false; }
+      html += `<h3>${line.replace('### ', '')}</h3>`;
+      i++; continue;
+    }
+
+    // HR dividers
+    if (line.trim() === '---') {
+      if (inList) { html += '</ul>'; inList = false; }
+      html += '<hr>';
+      i++; continue;
+    }
+
+    // Bullet points
+    if (line.startsWith('• ') || line.startsWith('- ')) {
+      if (!inList) { html += '<ul>'; inList = true; }
+      html += `<li>${formatInline(line.replace(/^[•\-] /, ''))}</li>`;
+      i++; continue;
+    }
+
+    // Empty lines
+    if (line.trim() === '') {
+      if (inList) { html += '</ul>'; inList = false; }
+      i++; continue;
+    }
+
+    // Regular paragraphs
+    if (inList) { html += '</ul>'; inList = false; }
+    if (line.trim()) {
+      html += `<p>${formatInline(line)}</p>`;
+    }
+    i++;
+  }
+
+  if (inList) html += '</ul>';
+  return html;
+}
+
+function formatInline(text) {
+  return text
+    .replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>')
+    .replace(/\*(.+?)\*/g, '<em>$1</em>')
+    .replace(/\[(.+?)\]\((.+?)\)/g, '<a href="$2" style="color:#9e1c20;">$1</a>');
+}
+
+loadNewsletter();
+</script>
+
+</body>
+</html>
