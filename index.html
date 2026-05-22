@@ -351,31 +351,93 @@
     <span class="section-label">Par izdevumu</span>
 
     <p class="lede">
-      Katru otrdienu — piecu minūšu apskats par to, kas Latvijā tiešām notika un ko tas nozīmē.
+      Katru otrdienu tavā e-pastā — 5 minūtes par Latviju.
     </p>
 
-    <!-- Red divider -->
-    <div class="rule-red" style="margin-bottom:32px"></div>
+    <!-- Newspaper preview element -->
+    <div id="newspaper-preview-section" style="display:none;">
+      <a href="/izdevums.html" id="np-link" style="text-decoration:none;display:block;margin:28px 0 36px;">
+        <div style="display:flex;align-items:center;gap:38px;">
 
-    <ul class="features">
-      <li>Tikai stāsti ar reālu ietekmi uz Latviju — atlasīti, nevis samesti vienuviet.</li>
-      <li>Katrs notikums izskaidrots — ne tikai kas notika, bet ko tas nozīmē tev.</li>
-      <li>Visa nedēļa vienā lasījumā. Piecas minūtes otrdienā, un esi informēts.</li>
-      <li>Ar to pietiek, lai saprastu nedēļu Latvijā.</li>
-    </ul>
+          <!-- NEWSPAPER OBJECT -->
+          <div id="np-paper" style="flex-shrink:0;width:176px;background:#faf8f2;border:1px solid #ccc9be;transform:rotate(-2.5deg);box-shadow:3px 4px 0 rgba(0,0,0,0.06),1px 2px 0 rgba(0,0,0,0.04);transition:transform 0.3s ease,box-shadow 0.3s ease;cursor:pointer;">
+            <div style="height:3px;background:#9e1c20;"></div>
+            <div style="padding:11px 11px 14px;">
+              <div style="font-family:'Inter',sans-serif;font-size:6px;font-weight:500;letter-spacing:2px;text-transform:uppercase;color:#999;display:flex;justify-content:space-between;margin-bottom:6px;">
+                <span>Otrdienā · 10:00</span><span id="np-daterange">...</span>
+              </div>
+              <div style="height:0.5px;background:#1a1a1a;margin-bottom:5px;"></div>
+              <div style="font-family:'Playfair Display',Georgia,serif;font-size:14px;font-weight:800;color:#1a1a1a;text-align:center;line-height:1;letter-spacing:-0.5px;margin-bottom:3px;">
+                <span style="color:#9e1c20;">5 Min.</span> Latvijā
+              </div>
+              <div style="height:1.5px;background:#1a1a1a;margin-bottom:8px;"></div>
+              <div style="font-family:'Inter',sans-serif;font-size:5.5px;font-weight:500;letter-spacing:2px;text-transform:uppercase;color:#aaa;text-align:center;margin-bottom:10px;">Iknedēļas izdevums</div>
+              <div id="np-headline" style="font-family:'Playfair Display',Georgia,serif;font-size:10px;font-weight:700;color:#1a1a1a;line-height:1.3;letter-spacing:-0.2px;margin-bottom:8px;border-bottom:0.5px solid #d0ccc0;padding-bottom:7px;">...</div>
+              <div id="np-sections" style="display:flex;flex-direction:column;gap:5px;"></div>
+              <div style="margin-top:10px;padding-top:6px;border-top:0.5px solid #d0ccc0;font-family:'Inter',sans-serif;font-size:5px;letter-spacing:1.5px;text-transform:uppercase;color:#bbb;text-align:center;">piecasminutes.lv</div>
+            </div>
+          </div>
 
-    <!-- Sample issue link -->
-    <!-- Featured issue link — editorial style -->
-    <div style="border-top:1px solid #d0ccc0;border-bottom:1px solid #d0ccc0;padding:20px 0;margin-bottom:32px;">
-      <span style="font-family:'Inter',-apple-system,sans-serif;font-size:10px;font-weight:700;letter-spacing:3px;text-transform:uppercase;color:#9e1c20;display:block;margin-bottom:10px;">Jaunākais izdevums</span>
-      <a href="/izdevums.html" style="font-family:'Playfair Display',Georgia,serif;font-size:19px;font-weight:700;color:#1a1a1a;text-decoration:none;letter-spacing:-0.3px;line-height:1.3;display:block;transition:color 0.15s;"
-         onmouseover="this.style.color='#9e1c20'" onmouseout="this.style.color='#1a1a1a'">
-        Izlasi pirms pierakstīšanās &nbsp;→
+          <!-- CTA SIDE -->
+          <div style="flex:1;">
+            <span style="font-family:'Inter',sans-serif;font-size:10px;font-weight:600;letter-spacing:4px;text-transform:uppercase;color:#9e1c20;display:block;margin-bottom:14px;">Šīs nedēļas izdevums</span>
+            <span id="np-cta-headline" style="font-family:'Playfair Display',Georgia,serif;font-size:20px;font-weight:700;color:#1a1a1a;line-height:1.25;letter-spacing:-0.5px;margin-bottom:10px;display:block;">...</span>
+            <p style="font-family:Georgia,serif;font-size:13px;font-style:italic;color:#888;line-height:1.6;margin-bottom:20px;">Piecu minūšu apskats par to, kas Latvijā šonedēļ tiešām mainījās.</p>
+            <span style="font-family:'Inter',sans-serif;font-size:10px;font-weight:700;letter-spacing:3px;text-transform:uppercase;color:#1a1a1a;border-bottom:1px solid #1a1a1a;padding-bottom:2px;">Atvērt šo izdevumu</span>
+          </div>
+
+        </div>
       </a>
-      <span style="font-family:'Inter',-apple-system,sans-serif;font-size:11px;color:#888;margin-top:6px;display:block;">Pārliecinies pats, pirms pierakstīties.</span>
     </div>
 
-    <!-- Early reader framing — quiet, not aggressive -->
+    <script>
+    (function() {
+      fetch('/drafts/draft_latest.md')
+        .then(r => r.text())
+        .then(md => {
+          const lines = md.split('\n');
+          let thesis = '', headlines = [], inSonedel = false;
+          for (let i = 0; i < lines.length; i++) {
+            const line = lines[i].trim();
+            if (line === '## ŠONEDĒĻ') { inSonedel = true; continue; }
+            if (inSonedel && line && !line.startsWith('#') && line !== '---') { thesis = line; inSonedel = false; continue; }
+            if (line.startsWith('### ')) headlines.push(line.replace('### ', '').trim());
+          }
+
+          // Coverage dates
+          const today = new Date();
+          const day = today.getDay();
+          const daysToLastSun = day === 0 ? 7 : day;
+          const lastSun = new Date(today); lastSun.setDate(today.getDate() - daysToLastSun);
+          const lastMon = new Date(lastSun); lastMon.setDate(lastSun.getDate() - 6);
+          const m = ['janv.','febr.','marts','apr.','maijs','jūn.','jūl.','aug.','sept.','okt.','nov.','dec.'];
+          document.getElementById('np-daterange').textContent = lastMon.getDate() + '. – ' + lastSun.getDate() + '. ' + m[lastSun.getMonth()];
+
+          if (thesis) {
+            const clean = thesis.replace(/\*\*/g, '');
+            document.getElementById('np-headline').textContent = clean.length > 80 ? clean.slice(0, 80) + '…' : clean;
+            document.getElementById('np-cta-headline').textContent = clean.length > 60 ? clean.slice(0, 60) + '…' : clean;
+          }
+
+          const sections = ['Politika','Ekonomika','Sports'];
+          const npSections = document.getElementById('np-sections');
+          headlines.slice(0, 3).forEach((h, i) => {
+            npSections.innerHTML += '<div><span style="font-family:Inter,sans-serif;font-size:5.5px;font-weight:700;letter-spacing:2px;text-transform:uppercase;color:#9e1c20;display:block;margin-bottom:1px;">' + (sections[i] || 'Aktuāli') + '</span><span style="font-family:Georgia,serif;font-size:7px;color:#555;line-height:1.35;">' + (h.length > 45 ? h.slice(0,45) + '…' : h) + '</span></div>';
+          });
+
+          document.getElementById('newspaper-preview-section').style.display = 'block';
+
+          // Hover effect
+          const paper = document.getElementById('np-paper');
+          const link = document.getElementById('np-link');
+          link.addEventListener('mouseover', () => { paper.style.transform = 'rotate(-1deg) translateY(-2px)'; paper.style.boxShadow = '4px 6px 0 rgba(0,0,0,0.08)'; });
+          link.addEventListener('mouseout', () => { paper.style.transform = 'rotate(-2.5deg)'; paper.style.boxShadow = '3px 4px 0 rgba(0,0,0,0.06),1px 2px 0 rgba(0,0,0,0.04)'; });
+        })
+        .catch(() => {});
+    })();
+    </script>
+
+    <!-- Early reader framing -->
     <p class="early-note">Pievienojies pirmajiem lasītājiem</p>
 
     <p style="font-family:Georgia,'Times New Roman',serif;font-size:15px;font-style:italic;color:#3a3a3a;line-height:1.7;margin-bottom:24px;">
@@ -399,6 +461,16 @@
         Katru otrdienu plkst. 10:00. Atrakstīšanās jebkurā brīdī. <a href="/privacy.html" style="color:#888;text-decoration:underline;">Privātuma politika</a>.
       </p>
     </form>
+
+    <!-- Red divider -->
+    <div class="rule-red" style="margin:32px 0"></div>
+
+    <ul class="features">
+      <li>Tikai stāsti ar reālu ietekmi uz Latviju — atlasīti, nevis samesti vienuviet.</li>
+      <li>Katrs notikums izskaidrots — ne tikai kas notika, bet ko tas nozīmē tev.</li>
+      <li>Visa nedēļa vienā lasījumā. Piecas minūtes otrdienā, un esi informēts.</li>
+      <li>Ar to pietiek, lai saprastu nedēļu Latvijā.</li>
+    </ul>
 
     <div class="success" id="success-msg">
       <h2>Paldies.</h2>
