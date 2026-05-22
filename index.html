@@ -468,36 +468,61 @@
     <!-- Red divider -->
     <div class="rule-red" style="margin:32px 0"></div>
 
-    <ul class="features">
-      <li>Tikai stāsti ar reālu ietekmi uz Latviju — atlasīti, nevis samesti vienuviet.</li>
-      <li>Katrs notikums izskaidrots — ne tikai kas notika, bet ko tas nozīmē tev.</li>
-      <li>Visa nedēļa vienā lasījumā. Piecas minūtes otrdienā, un esi informēts.</li>
-      <li>Ar to pietiek, lai saprastu nedēļu Latvijā.</li>
-    </ul>
+    <!-- Differentiator cards -->
+    <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin-bottom:32px;">
+      <div style="border:1px solid #d0ccc0;padding:18px 14px;text-align:center;">
+        <span style="font-family:'Playfair Display',Georgia,serif;font-size:22px;font-weight:800;color:#9e1c20;display:block;line-height:1.1;margin-bottom:8px;">Atlasīts</span>
+        <span style="font-family:'Inter',sans-serif;font-size:10px;font-weight:500;letter-spacing:1px;color:#888;display:block;line-height:1.5;">Tikai stāsti ar reālu ietekmi</span>
+      </div>
+      <div style="border:1px solid #d0ccc0;padding:18px 14px;text-align:center;">
+        <span style="font-family:'Playfair Display',Georgia,serif;font-size:22px;font-weight:800;color:#9e1c20;display:block;line-height:1.1;margin-bottom:8px;">Izskaidrots</span>
+        <span style="font-family:'Inter',sans-serif;font-size:10px;font-weight:500;letter-spacing:1px;color:#888;display:block;line-height:1.5;">Ko tas nozīmē tev</span>
+      </div>
+      <div style="border:1px solid #d0ccc0;padding:18px 14px;text-align:center;">
+        <span style="font-family:'Playfair Display',Georgia,serif;font-size:22px;font-weight:800;color:#9e1c20;display:block;line-height:1.1;margin-bottom:8px;">5 min</span>
+        <span style="font-family:'Inter',sans-serif;font-size:10px;font-weight:500;letter-spacing:1px;color:#888;display:block;line-height:1.5;">Visa nedēļa vienā lasījumā</span>
+      </div>
+    </div>
 
     <div class="success" id="success-msg">
       <h2>Paldies.</h2>
       <p>Tiekamies.</p>
     </div>
 
-    <!-- Reader quotes -->
-    <div style="border-top:1px solid #d0ccc0;margin-top:40px;padding-top:32px;">
-      <span style="font-family:'Inter',sans-serif;font-size:10px;font-weight:700;letter-spacing:3px;text-transform:uppercase;color:#9e1c20;display:block;margin-bottom:24px;">Lasītāji saka</span>
-      <div style="display:flex;flex-direction:column;gap:20px;">
-        <div style="border-left:2px solid #9e1c20;padding-left:16px;">
-          <p style="font-family:'Playfair Display',Georgia,serif;font-size:15px;font-style:italic;color:#1a1a1a;line-height:1.6;margin-bottom:6px;">"Ļoti nice koncepts — tieši tas, kas Latvijā trūkst."</p>
-          <span style="font-family:'Inter',sans-serif;font-size:10px;color:#aaa;letter-spacing:1px;">— lasītājs</span>
-        </div>
-        <div style="border-left:2px solid #9e1c20;padding-left:16px;">
-          <p style="font-family:'Playfair Display',Georgia,serif;font-size:15px;font-style:italic;color:#1a1a1a;line-height:1.6;margin-bottom:6px;">"Mega. Čekošu katru otrdienu."</p>
-          <span style="font-family:'Inter',sans-serif;font-size:10px;color:#aaa;letter-spacing:1px;">— lasītājs</span>
-        </div>
-        <div style="border-left:2px solid #9e1c20;padding-left:16px;">
-          <p style="font-family:'Playfair Display',Georgia,serif;font-size:15px;font-style:italic;color:#1a1a1a;line-height:1.6;margin-bottom:6px;">"Īstenībā diezgan noderīgi."</p>
-          <span style="font-family:'Inter',sans-serif;font-size:10px;color:#aaa;letter-spacing:1px;">— lasītājs</span>
+    <!-- Reader quotes slider -->
+    <div style="border-top:1px solid #d0ccc0;margin-top:32px;padding-top:28px;">
+      <span style="font-family:'Inter',sans-serif;font-size:10px;font-weight:700;letter-spacing:3px;text-transform:uppercase;color:#9e1c20;display:block;margin-bottom:20px;">Lasītāji saka</span>
+      <div style="position:relative;overflow:hidden;">
+        <div id="quotes-track" style="display:flex;transition:transform 0.35s ease;">
+          <div class="quote-slide" style="min-width:100%;border-left:2px solid #9e1c20;padding-left:16px;">
+            <p style="font-family:'Playfair Display',Georgia,serif;font-size:16px;font-style:italic;color:#1a1a1a;line-height:1.6;margin-bottom:6px;">"Ļoti nice koncepts — tieši tas, kas Latvijā trūkst."</p>
+            <span style="font-family:'Inter',sans-serif;font-size:10px;color:#aaa;letter-spacing:1px;">— lasītājs</span>
+          </div>
+          <div class="quote-slide" style="min-width:100%;border-left:2px solid #9e1c20;padding-left:16px;">
+            <p style="font-family:'Playfair Display',Georgia,serif;font-size:16px;font-style:italic;color:#1a1a1a;line-height:1.6;margin-bottom:6px;">"Mega. Čekošu katru otrdienu."</p>
+            <span style="font-family:'Inter',sans-serif;font-size:10px;color:#aaa;letter-spacing:1px;">— lasītājs</span>
+          </div>
+          <div class="quote-slide" style="min-width:100%;border-left:2px solid #9e1c20;padding-left:16px;">
+            <p style="font-family:'Playfair Display',Georgia,serif;font-size:16px;font-style:italic;color:#1a1a1a;line-height:1.6;margin-bottom:6px;">"Īstenībā diezgan noderīgi."</p>
+            <span style="font-family:'Inter',sans-serif;font-size:10px;color:#aaa;letter-spacing:1px;">— lasītājs</span>
+          </div>
         </div>
       </div>
+      <div style="display:flex;gap:8px;margin-top:16px;align-items:center;">
+        <button onclick="moveQuote(-1)" style="background:none;border:1px solid #d0ccc0;padding:4px 12px;font-family:'Inter',sans-serif;font-size:11px;cursor:pointer;color:#888;">←</button>
+        <button onclick="moveQuote(1)" style="background:none;border:1px solid #d0ccc0;padding:4px 12px;font-family:'Inter',sans-serif;font-size:11px;cursor:pointer;color:#888;">→</button>
+        <span id="quote-counter" style="font-family:'Inter',sans-serif;font-size:10px;color:#aaa;letter-spacing:1px;">1 / 3</span>
+      </div>
     </div>
+    <script>
+    var qIdx = 0;
+    var qTotal = 3;
+    function moveQuote(dir) {
+      qIdx = (qIdx + dir + qTotal) % qTotal;
+      document.getElementById('quotes-track').style.transform = 'translateX(-' + (qIdx * 100) + '%)';
+      document.getElementById('quote-counter').textContent = (qIdx + 1) + ' / ' + qTotal;
+    }
+    </script>
 
   </div>
 
