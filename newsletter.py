@@ -128,6 +128,18 @@ The gold standard is the kind of sentence people quote:
 - "Latvija šobrīd dzīvo starp divām realitātēm — NATO robežas valsti un valsti, kur joprojām brīnās, kāpēc sirēnas nestrādā."
 These are OBSERVATIONS — synthesis with a point of view. Not summaries. Not punchlines. Every issue must contain at least 2-3 such lines.
 
+PULL QUOTES — MANDATORY FOR EVERY MAJOR STORY:
+For each story in LATVIJAS GALVENIE STĀSTI, include ONE pull quote — the single most important, memorable, or forwardable sentence from that story. Format it as a markdown blockquote:
+
+> Your pull quote here.
+
+Rules for pull quotes:
+- One per major story, placed after the first or second paragraph
+- Must be the sharpest, most eye-catching line in that story
+- An observation or striking fact — not a summary
+- Max 2 sentences
+- Never identical to a line already in the body — sharpen it
+
 5. SHORT SENTENCES
 Most sentences: short to medium. Readers must glide. No giant paragraph blocks. No three-clause sentences when one will do.
 
@@ -295,26 +307,6 @@ Silently verify ALL of these:
 13. Would someone who reads this feel BEHIND without it?
 14. Is there ZERO AI/process leakage at the top?
 15. Would at least 3 lines be worth forwarding to a friend?
-
-LENGTH CHECK — MANDATORY:
-16. Is every story max 3-4 short paragraphs? If any story has 5+ paragraphs — cut it.
-17. Did I cut the weakest sentence from every paragraph?
-18. Is the total issue readable in under 5 minutes? If not — cut 30% more.
-
-HUMAN VOICE CHECK — MANDATORY:
-19. Read every sentence out loud mentally. Does it sound like a real person or a generated summary?
-20. Are there any of these AI patterns present? If yes — rewrite:
-    - Sentences starting with "Tas nozīmē, ka..."
-    - "Tas ir..." constructions used as conclusions or definitions (e.g. "tas ir vieta, kur...", "tas ir brīdis, kad...")
-    - Overly balanced "no vienas puses... no otras puses" constructions
-    - Any sentence that could appear word-for-word in an LSM article
-    - Conclusions that summarize what was just said instead of adding something new
-    - Any phrase that sounds like a press release or official statement
-    - "Jautājums ir par to, vai..." — weak, hedging, non-committal
-    - "Tas liecina, ka..." — institutional, cold
-    - Ending a paragraph with a rhetorical question when a statement would be stronger
-21. Does every "Secinājums:" line (if used) add something new — an observation, a tension — rather than just restating the story? Better: drop the "Secinājums:" label entirely and let the final line land on its own.
-22. Is there at least one moment in the issue where the writing has a real point of view — not just reporting, but seeing something others haven't said?
 
 If any check fails — REWRITE before outputting.
 
@@ -506,6 +498,20 @@ def markdown_to_html(markdown_text: str, subscriber_email: str = "") -> str:
 
         # Italic-only tagline (skip — masthead handles it)
         if stripped.startswith('*') and stripped.endswith('*') and not stripped.startswith('**'):
+            continue
+
+        # Pull quote — blockquote (> text)
+        if stripped.startswith('> '):
+            text = stripped[2:]
+            text = re.sub(r'\*\*(.+?)\*\*', r'<strong style="color:#1a1a1a">\1</strong>', text)
+            html_lines.append(
+                f'<div style="border-left:3px solid #9e1c20;padding:16px 24px;'
+                f'margin:28px 0;background:#f5f2eb;">'
+                f'<p style="font-family:Georgia,\'Times New Roman\',serif;'
+                f'font-size:18px;font-weight:700;color:#1a1a1a;line-height:1.5;'
+                f'margin:0;letter-spacing:-0.3px;font-style:italic">{text}</p>'
+                f'</div>'
+            )
             continue
 
         # Body paragraph
