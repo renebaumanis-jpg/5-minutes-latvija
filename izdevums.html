@@ -266,6 +266,14 @@
   </div>
 
   <div class="body">
+    <!-- Phone preview -->
+    <div id="issue-preview" style="display:none;border:1.5px solid #1a1a1a;padding:24px 28px;margin-bottom:32px;">
+      <span style="font-family:'Inter',-apple-system,sans-serif;font-size:10px;font-weight:700;letter-spacing:3px;text-transform:uppercase;color:#9e1c20;display:block;margin-bottom:14px;">Šonedēļ</span>
+      <p id="preview-thesis" style="font-family:'Playfair Display',Georgia,serif;font-size:17px;font-weight:700;color:#1a1a1a;line-height:1.35;margin-bottom:16px;letter-spacing:-0.3px;"></p>
+      <div id="preview-bullets" style="border-top:1px solid #d0ccc0;padding-top:14px;"></div>
+      <a href="#newsletter-content" style="font-family:'Inter',-apple-system,sans-serif;font-size:11px;font-weight:700;letter-spacing:2px;text-transform:uppercase;color:#9e1c20;text-decoration:none;display:block;margin-top:16px;padding-top:14px;border-top:1px solid #d0ccc0;">Lasīt pilnu izdevumu ↓</a>
+    </div>
+
     <div class="content" id="newsletter-content">
       <!-- Content rendered by JS from markdown -->
     </div>
@@ -312,9 +320,46 @@ async function loadNewsletter() {
     const res = await fetch('/drafts/draft_latest.md');
     const md = await res.text();
     document.getElementById('newsletter-content').innerHTML = renderMD(md);
+    buildPreview(md);
   } catch(e) {
     document.getElementById('newsletter-content').innerHTML = '<p style="color:#888;font-style:italic;">Izdevums tiek sagatavots. Atgriezies otrdienā plkst. 10:00.</p>';
   }
+}
+
+function buildPreview(md) {
+  const lines = md.split('\n');
+  let thesis = '';
+  let headlines = [];
+  let inSonedel = false;
+
+  for (let i = 0; i < lines.length; i++) {
+    const line = lines[i].trim();
+
+    // Get ŠONEDĒĻ thesis
+    if (line === '## ŠONEDĒĻ') { inSonedel = true; continue; }
+    if (inSonedel && line && !line.startsWith('#') && line !== '---') {
+      thesis = line; inSonedel = false; continue;
+    }
+
+    // Get story headlines (h3)
+    if (line.startsWith('### ')) {
+      headlines.push(line.replace('### ', '').trim());
+    }
+  }
+
+  if (!thesis && headlines.length === 0) return;
+
+  // Populate preview
+  document.getElementById('preview-thesis').textContent = thesis;
+  
+  const bulletsEl = document.getElementById('preview-bullets');
+  bulletsEl.innerHTML = headlines.slice(0, 4).map(h =>
+    `<p style="font-family:Georgia,serif;font-size:13px;color:#3a3a3a;line-height:1.5;padding:7px 0;border-bottom:1px solid #e8e4da;margin:0;">
+      <span style="color:#9e1c20;font-weight:700;margin-right:8px;">—</span>${h}
+    </p>`
+  ).join('');
+
+  document.getElementById('issue-preview').style.display = 'block';
 }
 
 function renderMD(md) {
