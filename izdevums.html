@@ -382,15 +382,12 @@ function renderMD(md) {
       if (inList) { html += '</ul>'; inList = false; }
       const text = line.replace('## ', '');
       if (text === 'ŠONEDĒĻ') {
-        // Special ŠONEDĒĻ block — collect next paragraph
+        // Skip — already shown in preview box above
         i++;
         while (i < lines.length && lines[i].trim() === '') i++;
-        let content = '';
         while (i < lines.length && lines[i].trim() !== '' && !lines[i].startsWith('#') && !lines[i].startsWith('---')) {
-          content += lines[i] + ' ';
           i++;
         }
-        html += `<h2>${text}</h2><div class="sonedel">${content.trim()}</div>`;
         continue;
       }
       html += `<h2>${text}</h2>`;
