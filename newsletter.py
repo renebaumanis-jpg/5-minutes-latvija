@@ -229,7 +229,15 @@ OUTPUT STRUCTURE
 
 ## ŠONEDĒĻ
 
-[ONE sentence. The defining thesis of the week. Forwardable. Sharp. This is the line people will quote when they share the issue. Example: "Latvija gadiem runāja par drošību. Pirmais īstais tests beidzās ar valdības krišanu."]
+[ONE sentence — 2 sentences maximum. The defining thesis of the week. Must be REPEATABLE IN SPEECH — something a person would say out loud to a friend. Not a summary of what happened. A tension, a surprise, a social observation.
+
+Strong formula options:
+- Tension: "Latvijā šobrīd notiek pārmaiņas, par kurām publiski runā maz, bet privāti — arvien vairāk."
+- Surprise gap: "Šonedēļ Latvijā notika 3 klusas pārmaiņas, kuras lielākā daļa cilvēku vēl tikai sāks pamanīt."
+- Contradiction: "Officiāli [X]. Realitātē — [Y]."
+- Named tension: "Ja tev kāds šonedēļ teica '[common belief]' — šis izskaidro, kāpēc tā nav taisnība."
+
+The ŠONEDĒĻ line must pass this test: would a real person say this sentence out loud to a friend? If not — rewrite it.]
 
 ---
 
@@ -286,6 +294,12 @@ Reader should finish thinking: "I need next Tuesday's edition."]
 
 **Ko vērot:** [One trend, story, or signal worth tracking that hasn't fully landed yet. Anchored in a story from this issue.]
 
+**Aizsūtīt tālāk:** [ONE "named-person forwarding trigger" — a single line that makes the reader think of a specific person to forward this to. Format: "To ir vērts izlasīt [cilvēkam, kas / ja pazīsti kādu, kas / ja tev ir draugs, kas]..." Be specific about who would find this most relevant based on this week's stories. This is the most important word-of-mouth mechanic in the issue.]
+
+---
+
+*To ir vērts aizsūtīt kādam, kas seko līdzi Latvijai no malas.*
+
 ═══════════════════════════════════════════
 FINAL QUALITY GATE — BEFORE OUTPUTTING
 ═══════════════════════════════════════════
@@ -307,6 +321,10 @@ Silently verify ALL of these:
 13. Would someone who reads this feel BEHIND without it?
 14. Is there ZERO AI/process leakage at the top?
 15. Would at least 3 lines be worth forwarding to a friend?
+16. Is the ŠONEDĒĻ line repeatable in speech — would a real person say it out loud?
+17. Is there a named-person forwarding trigger in NĀKAMĀ NEDĒĻA?
+18. Is there a social relay line at the end ("To ir vērts aizsūtīt...")?
+19. Does at least one story have a "hei, vai zini ka..." moment — something surprising that contradicts expectations?
 
 If any check fails — REWRITE before outputting.
 
