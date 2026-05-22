@@ -296,6 +296,26 @@ Silently verify ALL of these:
 14. Is there ZERO AI/process leakage at the top?
 15. Would at least 3 lines be worth forwarding to a friend?
 
+LENGTH CHECK — MANDATORY:
+16. Is every story max 3-4 short paragraphs? If any story has 5+ paragraphs — cut it.
+17. Did I cut the weakest sentence from every paragraph?
+18. Is the total issue readable in under 5 minutes? If not — cut 30% more.
+
+HUMAN VOICE CHECK — MANDATORY:
+19. Read every sentence out loud mentally. Does it sound like a real person or a generated summary?
+20. Are there any of these AI patterns present? If yes — rewrite:
+    - Sentences starting with "Tas nozīmē, ka..."
+    - "Tas ir..." constructions used as conclusions or definitions (e.g. "tas ir vieta, kur...", "tas ir brīdis, kad...")
+    - Overly balanced "no vienas puses... no otras puses" constructions
+    - Any sentence that could appear word-for-word in an LSM article
+    - Conclusions that summarize what was just said instead of adding something new
+    - Any phrase that sounds like a press release or official statement
+    - "Jautājums ir par to, vai..." — weak, hedging, non-committal
+    - "Tas liecina, ka..." — institutional, cold
+    - Ending a paragraph with a rhetorical question when a statement would be stronger
+21. Does every "Secinājums:" line (if used) add something new — an observation, a tension — rather than just restating the story? Better: drop the "Secinājums:" label entirely and let the final line land on its own.
+22. Is there at least one moment in the issue where the writing has a real point of view — not just reporting, but seeing something others haven't said?
+
 If any check fails — REWRITE before outputting.
 
 OUTPUT: Return ONLY the newsletter in markdown, in Latvian. No preamble. No commentary. No "here is the newsletter". Start directly with the # 5 Minūtes Latvijā header.
@@ -509,13 +529,8 @@ def markdown_to_html(markdown_text: str, subscriber_email: str = "") -> str:
     today = datetime.now()
     masthead_date = format_latvian_date_short(today)
     masthead_weekday = LATVIAN_WEEKDAYS[today.weekday()]
-    # Coverage window
-    coverage_start, coverage_end = get_coverage_window(today)
-    cov_start_short = format_latvian_date_short(coverage_start)
-    cov_end_short = format_latvian_date_short(coverage_end)
-    coverage_display = f"{cov_start_short} – {cov_end_short}"
     # Display: "12. maijs · Otrdiena"
-    masthead_display = f"{masthead_date} &nbsp;·&nbsp; {masthead_weekday} &nbsp;·&nbsp; {coverage_display}"
+    masthead_display = f"{masthead_date} &nbsp;·&nbsp; {masthead_weekday}"
 
     # Unsubscribe instruction — manual reply method
     unsub_line = (
