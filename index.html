@@ -354,14 +354,20 @@
     <span class="section-label">Par izdevumu</span>
 
     <p class="lede">
-      Katru otrdienu tavā e-pastā — svarīgākais Latvijā piecās minūtēs.
+      Svarīgākais Latvijā — tieši tavā e-pastā, piecās minūtēs.
     </p>
 
     <!-- Newspaper preview element -->
-    <div id="newspaper-preview-section" style="display:none;">
-      <span style="font-family:'Inter',sans-serif;font-size:10px;font-weight:700;letter-spacing:3px;text-transform:uppercase;color:#9e1c20;display:block;margin-bottom:12px;margin-top:28px;text-align:center;">Šīs nedēļas izdevums</span>
-      <a href="/izdevums.html" id="np-link" style="text-decoration:none;display:block;margin-bottom:10px;text-align:center;">
-        <div style="display:inline-block;">
+    <div id="newspaper-preview-section" style="display:none;margin-top:28px;"><div style="display:flex;gap:20px;align-items:flex-start;margin-bottom:28px;">
+
+      <!-- Two column: newspaper + gmail preview -->
+      <div style="display:flex;gap:24px;align-items:flex-start;margin-bottom:28px;">
+
+        <!-- LEFT: Newspaper -->
+        <div style="flex:1;text-align:center;">
+          <span style="font-family:'Inter',sans-serif;font-size:9px;font-weight:700;letter-spacing:3px;text-transform:uppercase;color:#9e1c20;display:block;margin-bottom:10px;">Šīs nedēļas izdevums</span>
+          <a href="/izdevums.html" id="np-link" style="text-decoration:none;display:block;margin-bottom:8px;">
+            <div style="display:inline-block;">
 
           <!-- NEWSPAPER OBJECT -->
           <div id="np-paper" style="flex-shrink:0;width:176px;background:#faf8f2;border:1px solid #ccc9be;transform:rotate(-2.5deg);box-shadow:3px 4px 0 rgba(0,0,0,0.06),1px 2px 0 rgba(0,0,0,0.04);transition:transform 0.3s ease,box-shadow 0.3s ease;cursor:pointer;display:inline-block;">
@@ -383,8 +389,56 @@
           </div>
 
         </div>
-      </a>
-      <span style="font-family:'Inter',sans-serif;font-size:10px;font-weight:600;letter-spacing:2px;text-transform:uppercase;color:#888;display:block;margin-bottom:28px;text-align:center;">Atvērt →</span>
+          </a>
+          <span style="font-family:'Inter',sans-serif;font-size:9px;font-weight:600;letter-spacing:2px;text-transform:uppercase;color:#888;display:block;margin-top:8px;text-align:center;">Atvērt →</span>
+        </div>
+
+        <!-- RIGHT: Gmail inbox impression -->
+        <div style="flex:1;">
+          <span style="font-family:'Inter',sans-serif;font-size:9px;font-weight:700;letter-spacing:3px;text-transform:uppercase;color:#9e1c20;display:block;margin-bottom:10px;">Katru otrdienu tavā e-pastā</span>
+
+          <!-- Inbox container -->
+          <div style="background:#faf8f2;border:1px solid #d0ccc0;">
+
+            <!-- Inbox label -->
+            <div style="padding:5px 12px;border-bottom:1px solid #e8e4da;">
+              <span style="font-family:'Inter',sans-serif;font-size:8px;font-weight:600;letter-spacing:2.5px;text-transform:uppercase;color:#bbb;">Ienākošie</span>
+            </div>
+
+            <!-- NEW unread email row -->
+            <div style="padding:9px 12px;background:#fff;border-bottom:1px solid #f0ede6;position:relative;">
+              <div style="width:3px;height:3px;border-radius:50%;background:#9e1c20;position:absolute;left:5px;top:50%;transform:translateY(-50%);"></div>
+              <div style="display:flex;justify-content:space-between;align-items:baseline;margin-bottom:2px;">
+                <span style="font-family:'Inter',sans-serif;font-size:11px;font-weight:700;color:#1a1a1a;letter-spacing:-0.2px;">5 Minūtes Latvijā</span>
+                <span style="font-family:'Inter',sans-serif;font-size:9px;color:#aaa;flex-shrink:0;margin-left:8px;">Otrd. 10:00</span>
+              </div>
+              <div style="font-family:'Inter',sans-serif;font-size:10px;font-weight:600;color:#1a1a1a;margin-bottom:1px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;" id="gmail-subject">Svarīgākais Latvijā šonedēļ</div>
+              <div style="font-family:'Inter',sans-serif;font-size:9px;color:#aaa;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;">Par ko Latvija runāja šonedēļ —</div>
+            </div>
+
+            <!-- Previous read email row -->
+            <div style="padding:8px 12px;border-bottom:1px solid #f0ede6;opacity:0.5;">
+              <div style="display:flex;justify-content:space-between;align-items:baseline;margin-bottom:2px;">
+                <span style="font-family:'Inter',sans-serif;font-size:10px;font-weight:400;color:#555;">5 Minūtes Latvijā</span>
+                <span style="font-family:'Inter',sans-serif;font-size:9px;color:#bbb;flex-shrink:0;margin-left:8px;">Otrd.</span>
+              </div>
+              <div style="font-family:'Inter',sans-serif;font-size:9px;color:#aaa;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;">Iepriekšējais izdevums · Par ko Latvija...</div>
+            </div>
+
+            <!-- Third faded row -->
+            <div style="padding:7px 12px;opacity:0.25;">
+              <div style="display:flex;justify-content:space-between;align-items:baseline;">
+                <span style="font-family:'Inter',sans-serif;font-size:10px;color:#888;">5 Minūtes Latvijā</span>
+                <span style="font-family:'Inter',sans-serif;font-size:9px;color:#bbb;">Otrd.</span>
+              </div>
+            </div>
+
+          </div>
+
+          <span style="font-family:'Inter',sans-serif;font-size:9px;color:#bbb;letter-spacing:1px;display:block;margin-top:8px;">Piegādāts katru otrdienu.</span>
+        </div>
+
+      </div>
     </div>
 
     <script>
@@ -413,6 +467,10 @@
           if (thesis) {
             const clean = thesis.replace(/\*\*/g, '');
             document.getElementById('np-headline').textContent = clean.length > 80 ? clean.slice(0, 80) + '…' : clean;
+            const inboxEl = document.getElementById('inbox-headline');
+            if (inboxEl) inboxEl.textContent = clean.length > 55 ? clean.slice(0, 55) + '…' : clean;
+            const gmailEl = document.getElementById('gmail-subject');
+            if (gmailEl) gmailEl.textContent = clean.length > 45 ? clean.slice(0, 45) + '…' : clean;
             }
 
           const sections = ['Politika','Ekonomika','Sports'];
@@ -435,6 +493,7 @@
 
     <!-- Early reader framing -->
     <p class="early-note" style="margin-top:36px;">Pievienojies pirmajiem lasītājiem</p>
+
 
     <form id="signup-form" action="https://formspree.io/f/xgodqbyl" method="POST">
       <label class="form-label" for="email">E-pasta adrese</label>
@@ -465,38 +524,23 @@
 
       <!-- Atlasīts — stacked pages icon -->
       <div style="border:1px solid #d0ccc0;padding:18px 8px;text-align:center;min-width:0;">
-        <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg" style="margin-bottom:8px;">
-          <rect x="6" y="10" width="14" height="11" rx="1" stroke="#9e1c20" stroke-width="1.5"/>
-          <rect x="4" y="7" width="14" height="11" rx="1" stroke="#9e1c20" stroke-width="1.5" fill="#fbf9f3"/>
-          <rect x="2" y="4" width="14" height="11" rx="1" stroke="#9e1c20" stroke-width="1.5" fill="#fbf9f3"/>
-          <line x1="5" y1="8" x2="13" y2="8" stroke="#9e1c20" stroke-width="1" stroke-linecap="round"/>
-          <line x1="5" y1="11" x2="11" y2="11" stroke="#9e1c20" stroke-width="1" stroke-linecap="round"/>
-        </svg>
-        <span style="font-family:'Playfair Display',Georgia,serif;font-size:clamp(16px,5vw,22px);font-weight:800;color:#9e1c20;display:block;line-height:1;margin-bottom:6px;">Atlasīts</span>
-        <span style="font-family:'Inter',sans-serif;font-size:clamp(8px,2.5vw,10px);font-weight:600;letter-spacing:1.5px;text-transform:uppercase;color:#888;display:block;line-height:1.5;">Reāla ietekme</span>
+        
+        <span style="font-family:'Playfair Display',Georgia,serif;font-size:clamp(22px,6vw,32px);font-weight:800;color:#9e1c20;display:block;line-height:1;margin-bottom:6px;">1×</span>
+        <span style="font-family:'Inter',sans-serif;font-size:clamp(8px,2.5vw,10px);font-weight:600;letter-spacing:1.5px;text-transform:uppercase;color:#888;display:block;line-height:1.5;">Nedēļā</span>
       </div>
 
       <!-- Izskaidrots — lines resolving to clarity -->
       <div style="border:1px solid #d0ccc0;padding:18px 8px;text-align:center;min-width:0;">
-        <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg" style="margin-bottom:8px;">
-          <line x1="4" y1="7" x2="10" y2="7" stroke="#9e1c20" stroke-width="1.5" stroke-linecap="round"/>
-          <line x1="4" y1="11" x2="16" y2="11" stroke="#9e1c20" stroke-width="1.5" stroke-linecap="round"/>
-          <line x1="4" y1="15" x2="12" y2="15" stroke="#9e1c20" stroke-width="1.5" stroke-linecap="round"/>
-          <path d="M18 10 L24 14 L18 18" stroke="#9e1c20" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-          <line x1="19" y1="14" x2="24" y2="14" stroke="#9e1c20" stroke-width="1.5" stroke-linecap="round"/>
-        </svg>
-        <span style="font-family:'Playfair Display',Georgia,serif;font-size:clamp(13px,4vw,22px);font-weight:800;color:#9e1c20;display:block;line-height:1.1;margin-bottom:6px;word-break:break-word;">Izskaidrots</span>
-        <span style="font-family:'Inter',sans-serif;font-size:clamp(8px,2.5vw,10px);font-weight:600;letter-spacing:1.5px;text-transform:uppercase;color:#888;display:block;line-height:1.5;">Ko tas nozīmē</span>
+        
+        <span style="font-family:'Playfair Display',Georgia,serif;font-size:clamp(22px,6vw,32px);font-weight:800;color:#9e1c20;display:block;line-height:1;margin-bottom:6px;">5'</span>
+        <span style="font-family:'Inter',sans-serif;font-size:clamp(8px,2.5vw,10px);font-weight:600;letter-spacing:1.5px;text-transform:uppercase;color:#888;display:block;line-height:1.5;">Lasīšanai</span>
       </div>
 
       <!-- 5 min — partial arc / time compression -->
       <div style="border:1px solid #d0ccc0;padding:18px 8px;text-align:center;min-width:0;">
-        <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg" style="margin-bottom:8px;">
-          <circle cx="14" cy="14" r="9" stroke="#9e1c20" stroke-width="1.5" stroke-dasharray="42 15" stroke-dashoffset="10" stroke-linecap="round"/>
-          <text x="14" y="18" text-anchor="middle" font-family="Georgia,serif" font-size="9" font-weight="800" fill="#9e1c20">5</text>
-        </svg>
-        <span style="font-family:'Playfair Display',Georgia,serif;font-size:clamp(16px,5vw,22px);font-weight:800;color:#9e1c20;display:block;line-height:1;margin-bottom:6px;">5 min</span>
-        <span style="font-family:'Inter',sans-serif;font-size:clamp(8px,2.5vw,10px);font-weight:600;letter-spacing:1.5px;text-transform:uppercase;color:#888;display:block;line-height:1.5;">Vienā lasījumā</span>
+        
+        <span style="font-family:'Playfair Display',Georgia,serif;font-size:clamp(22px,6vw,32px);font-weight:800;color:#9e1c20;display:block;line-height:1;margin-bottom:6px;">0€</span>
+        <span style="font-family:'Inter',sans-serif;font-size:clamp(8px,2.5vw,10px);font-weight:600;letter-spacing:1.5px;text-transform:uppercase;color:#888;display:block;line-height:1.5;">Bezmaksas</span>
       </div>
 
     </div>
