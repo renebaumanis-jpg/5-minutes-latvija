@@ -317,9 +317,10 @@
     .form-row  { flex-direction: column; }
     button[type="submit"] { padding: 18px; text-align: center; }
     .footer    { flex-direction: column; align-items: flex-start; }
-    #newspaper-preview-section a > div { flex-direction: column; align-items: center; gap: 24px; }
     #np-paper { transform: rotate(0deg) !important; width: 100% !important; max-width: 260px; }
-    #newspaper-preview-section .cta-side, #newspaper-preview-section > a > div > div:last-child { text-align: center; width: 100%; }
+    #np-two-col { flex-direction: column; gap: 24px; }
+    #np-two-col > div { width: 100% !important; text-align: center; }
+    #np-two-col > div:first-child a { display: block; text-align: center; }
   }
 </style>
 </head>
@@ -358,7 +359,7 @@
     </p>
 
     <!-- Newspaper preview element -->
-    <div id="newspaper-preview-section" style="display:none;margin-top:28px;"><div style="display:flex;gap:20px;align-items:flex-start;margin-bottom:28px;">
+    <div id="newspaper-preview-section" style="display:none;margin-top:28px;"><div id="np-two-col" style="display:flex;gap:20px;align-items:flex-start;margin-bottom:28px;">
 
       <!-- Two column: newspaper + gmail preview -->
       <div style="display:flex;gap:24px;align-items:flex-start;margin-bottom:28px;">
@@ -511,9 +512,7 @@
       <p class="fine-print" style="margin-top:14px;">
         Atrakstīties jebkurā brīdī. <a href="/privacy.html" style="color:#888;text-decoration:underline;">Privātuma politika</a>.
       </p>
-      <p style="font-family:Georgia,'Times New Roman',serif;font-size:13px;font-style:italic;color:#888;line-height:1.7;margin-top:6px;">
-        Ievadi e-pastu → saņem katru otrdienu vienu vēstuli → viss svarīgākais Latvijā vienā lasījumā.
-      </p>
+
     </form>
 
     <!-- Red divider -->
