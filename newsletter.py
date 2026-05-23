@@ -128,18 +128,6 @@ The gold standard is the kind of sentence people quote:
 - "Latvija šobrīd dzīvo starp divām realitātēm — NATO robežas valsti un valsti, kur joprojām brīnās, kāpēc sirēnas nestrādā."
 These are OBSERVATIONS — synthesis with a point of view. Not summaries. Not punchlines. Every issue must contain at least 2-3 such lines.
 
-PULL QUOTES — MANDATORY FOR EVERY MAJOR STORY:
-For each story in LATVIJAS GALVENIE STĀSTI, include ONE pull quote — the single most important, memorable, or forwardable sentence from that story. Format it as a markdown blockquote:
-
-> Your pull quote here.
-
-Rules for pull quotes:
-- One per major story, placed after the first or second paragraph
-- Must be the sharpest, most eye-catching line in that story
-- An observation or striking fact — not a summary
-- Max 2 sentences
-- Never identical to a line already in the body — sharpen it
-
 5. SHORT SENTENCES
 Most sentences: short to medium. Readers must glide. No giant paragraph blocks. No three-clause sentences when one will do.
 
@@ -229,15 +217,7 @@ OUTPUT STRUCTURE
 
 ## ŠONEDĒĻ
 
-[ONE sentence — 2 sentences maximum. The defining thesis of the week. Must be REPEATABLE IN SPEECH — something a person would say out loud to a friend. Not a summary of what happened. A tension, a surprise, a social observation.
-
-Strong formula options:
-- Tension: "Latvijā šobrīd notiek pārmaiņas, par kurām publiski runā maz, bet privāti — arvien vairāk."
-- Surprise gap: "Šonedēļ Latvijā notika 3 klusas pārmaiņas, kuras lielākā daļa cilvēku vēl tikai sāks pamanīt."
-- Contradiction: "Officiāli [X]. Realitātē — [Y]."
-- Named tension: "Ja tev kāds šonedēļ teica '[common belief]' — šis izskaidro, kāpēc tā nav taisnība."
-
-The ŠONEDĒĻ line must pass this test: would a real person say this sentence out loud to a friend? If not — rewrite it.]
+[ONE sentence. The defining thesis of the week. Forwardable. Sharp. This is the line people will quote when they share the issue. Example: "Latvija gadiem runāja par drošību. Pirmais īstais tests beidzās ar valdības krišanu."]
 
 ---
 
@@ -294,12 +274,6 @@ Reader should finish thinking: "I need next Tuesday's edition."]
 
 **Ko vērot:** [One trend, story, or signal worth tracking that hasn't fully landed yet. Anchored in a story from this issue.]
 
-**Aizsūtīt tālāk:** [ONE "named-person forwarding trigger" — a single line that makes the reader think of a specific person to forward this to. Format: "To ir vērts izlasīt [cilvēkam, kas / ja pazīsti kādu, kas / ja tev ir draugs, kas]..." Be specific about who would find this most relevant based on this week's stories. This is the most important word-of-mouth mechanic in the issue.]
-
----
-
-*To ir vērts aizsūtīt kādam, kas seko līdzi Latvijai no malas.*
-
 ═══════════════════════════════════════════
 FINAL QUALITY GATE — BEFORE OUTPUTTING
 ═══════════════════════════════════════════
@@ -321,10 +295,6 @@ Silently verify ALL of these:
 13. Would someone who reads this feel BEHIND without it?
 14. Is there ZERO AI/process leakage at the top?
 15. Would at least 3 lines be worth forwarding to a friend?
-16. Is the ŠONEDĒĻ line repeatable in speech — would a real person say it out loud?
-17. Is there a named-person forwarding trigger in NĀKAMĀ NEDĒĻA?
-18. Is there a social relay line at the end ("To ir vērts aizsūtīt...")?
-19. Does at least one story have a "hei, vai zini ka..." moment — something surprising that contradicts expectations?
 
 If any check fails — REWRITE before outputting.
 
@@ -516,20 +486,6 @@ def markdown_to_html(markdown_text: str, subscriber_email: str = "") -> str:
 
         # Italic-only tagline (skip — masthead handles it)
         if stripped.startswith('*') and stripped.endswith('*') and not stripped.startswith('**'):
-            continue
-
-        # Pull quote — blockquote (> text)
-        if stripped.startswith('> '):
-            text = stripped[2:]
-            text = re.sub(r'\*\*(.+?)\*\*', r'<strong style="color:#1a1a1a">\1</strong>', text)
-            html_lines.append(
-                f'<div style="border-left:3px solid #9e1c20;padding:16px 24px;'
-                f'margin:28px 0;background:#f5f2eb;">'
-                f'<p style="font-family:Georgia,\'Times New Roman\',serif;'
-                f'font-size:18px;font-weight:700;color:#1a1a1a;line-height:1.5;'
-                f'margin:0;letter-spacing:-0.3px;font-style:italic">{text}</p>'
-                f'</div>'
-            )
             continue
 
         # Body paragraph
@@ -779,12 +735,19 @@ def send_mode():
 
     issue_number = get_issue_number()  # increments counter here
 
-    # Archive
+    # Archive to sent_issues
     date_str = datetime.now().strftime("%Y-%m-%d")
     os.makedirs("sent_issues", exist_ok=True)
     with open(f"sent_issues/izdevums_{issue_number}_{date_str}.md", "w", encoding="utf-8") as f:
         f.write(markdown_content)
     print(f"Archived to sent_issues/izdevums_{issue_number}_{date_str}.md")
+
+    # Also save dated copy to drafts/ so website can display previous issues
+    os.makedirs("drafts", exist_ok=True)
+    dated_draft_path = f"drafts/draft_{date_str}.md"
+    with open(dated_draft_path, "w", encoding="utf-8") as f:
+        f.write(markdown_content)
+    print(f"Saved dated draft to {dated_draft_path}")
 
     subscribers = load_subscribers()
     if not subscribers:
