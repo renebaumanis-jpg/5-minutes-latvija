@@ -318,9 +318,11 @@
     button[type="submit"] { padding: 18px; text-align: center; }
     .footer    { flex-direction: column; align-items: flex-start; }
     #np-paper { transform: rotate(0deg) !important; width: 100% !important; max-width: 260px; }
-    #np-two-col { flex-direction: column; gap: 24px; }
+    #np-two-col { flex-direction: column; gap: 16px; }
     #np-two-col > div { width: 100% !important; text-align: center; }
     #np-two-col > div:first-child a { display: block; text-align: center; }
+    #np-gmail-col { display: none !important; }
+    #np-paper { transform: rotate(0deg) !important; width: 200px !important; }
   }
 </style>
 </head>
@@ -395,7 +397,7 @@
         </div>
 
         <!-- RIGHT: Gmail inbox impression -->
-        <div style="flex:1;">
+        <div id="np-gmail-col" style="flex:1;">
           <span style="font-family:'Inter',sans-serif;font-size:9px;font-weight:700;letter-spacing:3px;text-transform:uppercase;color:#9e1c20;display:block;margin-bottom:10px;">Katru otrdienu tavā e-pastā</span>
 
           <!-- Inbox container -->
