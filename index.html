@@ -317,12 +317,12 @@
     .form-row  { flex-direction: column; }
     button[type="submit"] { padding: 18px; text-align: center; }
     .footer    { flex-direction: column; align-items: flex-start; }
-    #np-paper { transform: rotate(0deg) !important; width: 100% !important; max-width: 260px; }
-    #np-two-col { flex-direction: column; gap: 16px; }
-    #np-two-col > div { width: 100% !important; text-align: center; }
-    #np-two-col > div:first-child a { display: block; text-align: center; }
-    #np-gmail-col { display: none !important; }
-    #np-paper { transform: rotate(0deg) !important; width: 200px !important; }
+    #np-paper { transform: rotate(0deg) !important; width: 176px !important; }
+    #np-desktop-row { flex-direction: column; align-items: center !important; }
+    #np-side-btn { display: none !important; }
+  }
+  @media (min-width: 521px) {
+    #side-tab { display: none !important; }
   }
 </style>
 </head>
@@ -361,9 +361,11 @@
     </p>
 
     <!-- Newspaper preview element -->
-    <div id="newspaper-preview-section" style="display:none;margin-top:28px;text-align:center;margin-bottom:28px;">
-      <span style="font-family:'Inter',sans-serif;font-size:9px;font-weight:700;letter-spacing:3px;text-transform:uppercase;color:#9e1c20;display:block;margin-bottom:10px;">Šīs nedēļas izdevums</span>
-      <a href="/izdevums.html" id="np-link" style="text-decoration:none;display:inline-block;margin-bottom:8px;">
+    <div id="newspaper-preview-section" style="display:none;margin-top:28px;margin-bottom:28px;">
+      <span style="font-family:'Inter',sans-serif;font-size:9px;font-weight:700;letter-spacing:3px;text-transform:uppercase;color:#9e1c20;display:block;margin-bottom:10px;text-align:center;">Šīs nedēļas izdevums</span>
+      <!-- Desktop: newspaper + button side by side -->
+      <div id="np-desktop-row" style="display:flex;align-items:center;justify-content:center;gap:28px;">
+        <a href="/izdevums.html" id="np-link" style="text-decoration:none;display:inline-block;margin-bottom:8px;">
         <div id="np-paper" style="width:176px;background:#faf8f2;border:1px solid #ccc9be;transform:rotate(-2.5deg);box-shadow:3px 4px 0 rgba(0,0,0,0.06),1px 2px 0 rgba(0,0,0,0.04);transition:transform 0.3s ease,box-shadow 0.3s ease;cursor:pointer;">
           <div style="height:3px;background:#9e1c20;"></div>
           <div style="padding:11px 11px 14px;">
@@ -380,12 +382,20 @@
             <div id="np-sections" style="display:flex;flex-direction:column;gap:5px;"></div>
             <div style="margin-top:10px;padding-top:6px;border-top:0.5px solid #d0ccc0;font-family:'Inter',sans-serif;font-size:5px;letter-spacing:1.5px;text-transform:uppercase;color:#bbb;text-align:center;">piecasminutes.lv</div>
           </div>
-          <div style="border-top:1px solid #d0ccc0;padding:7px 11px;text-align:center;background:#f5f2eb;">
-            <span style="font-family:'Inter',sans-serif;font-size:7px;font-weight:600;letter-spacing:2.5px;text-transform:uppercase;color:#888;">✉ Katru otrdienu tavā e-pastā</span>
-          </div>
+
         </div>
       </a>
-      <span style="font-family:'Inter',sans-serif;font-size:9px;font-weight:600;letter-spacing:2px;text-transform:uppercase;color:#888;display:block;margin-top:8px;">Atvērt →</span>
+      <span style="font-family:'Inter',sans-serif;font-size:9px;font-weight:600;letter-spacing:2px;text-transform:uppercase;color:#888;display:block;margin-top:8px;text-align:center;">Atvērt →</span>
+        <!-- Desktop: Kā to saņemt button next to newspaper -->
+        <div id="np-side-btn" style="display:flex;flex-direction:column;align-items:flex-start;justify-content:center;gap:16px;">
+          <button onclick="togglePanel()" style="background:none;border:1px solid #d0ccc0;padding:12px 18px;font-family:'Inter',sans-serif;font-size:10px;font-weight:700;letter-spacing:2px;text-transform:uppercase;color:#1a1a1a;cursor:pointer;transition:border-color 0.2s,color 0.2s;white-space:nowrap;"
+            onmouseover="this.style.borderColor='#9e1c20';this.style.color='#9e1c20';"
+            onmouseout="this.style.borderColor='#d0ccc0';this.style.color='#1a1a1a';">
+            Kā to saņemt?
+          </button>
+          <span style="font-family:Georgia,serif;font-size:11px;font-style:italic;color:#aaa;line-height:1.5;max-width:120px;">3 soļi — 30 sekundes</span>
+        </div>
+      </div>
     </div>
 
     <script>
