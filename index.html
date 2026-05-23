@@ -363,10 +363,10 @@
 
     <!-- Newspaper preview element -->
     <div id="newspaper-preview-section" style="display:none;margin-top:28px;margin-bottom:28px;">
-      <span style="font-family:'Inter',sans-serif;font-size:9px;font-weight:700;letter-spacing:3px;text-transform:uppercase;color:#9e1c20;display:block;margin-bottom:10px;text-align:center;cursor:pointer;" onclick="document.getElementById('np-link').click()">Šīs nedēļas izdevums &nbsp;↗</span>
       <!-- Desktop: newspaper + button side by side -->
       <div id="np-desktop-row" style="display:flex;align-items:center;justify-content:center;gap:28px;">
         <div style="display:flex;flex-direction:column;align-items:center;">
+        <span style="font-family:'Inter',sans-serif;font-size:9px;font-weight:700;letter-spacing:3px;text-transform:uppercase;color:#9e1c20;display:block;margin-bottom:10px;text-align:center;cursor:pointer;" onclick="document.getElementById('np-link').click()">Šīs nedēļas izdevums &nbsp;↗</span>
         <a href="/izdevums.html" id="np-link" style="text-decoration:none;display:inline-block;margin-bottom:8px;cursor:pointer;" title="Atvērt šīs nedēļas izdevumu">
         <div id="np-paper" style="width:176px;background:#faf8f2;border:1px solid #ccc9be;transform:rotate(-2.5deg);box-shadow:3px 4px 0 rgba(0,0,0,0.06),1px 2px 0 rgba(0,0,0,0.04);transition:transform 0.2s ease,box-shadow 0.2s ease,border-color 0.2s ease;cursor:pointer;"
           onmouseover="this.style.transform='rotate(-1deg) translateY(-2px)';this.style.boxShadow='5px 6px 0 rgba(0,0,0,0.1)';this.style.borderColor='#9e1c20';"
@@ -391,7 +391,8 @@
 
         </div>
       </a>
-      <span style="font-family:'Inter',sans-serif;font-size:9px;font-weight:600;letter-spacing:2px;text-transform:uppercase;color:#888;display:block;margin-top:8px;text-align:center;">Atvērt →</span>
+      <span style="font-family:'Inter',sans-serif;font-size:10px;font-weight:700;letter-spacing:2px;text-transform:uppercase;color:#9e1c20;display:block;margin-top:10px;text-align:center;border-bottom:1px solid #9e1c20;padding-bottom:2px;width:fit-content;margin-left:auto;margin-right:auto;cursor:pointer;transition:opacity 0.15s;"
+        onmouseover="this.style.opacity='0.6'" onmouseout="this.style.opacity='1'">Atvērt izdevumu →</span>
         </div>
         <!-- Desktop: Kā to saņemt button next to newspaper -->
         <div id="np-side-btn" style="display:flex;flex-direction:column;align-items:flex-start;justify-content:center;gap:16px;">
