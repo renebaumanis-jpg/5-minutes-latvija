@@ -6,132 +6,142 @@
 
 ## ŠONEDĒĻ
 
-Droni nogāza valdību. Tagad politiskā haosa vidū Latvija mēģina saprast, vai jaunais premjerministrs paspēs izveidot valdību pirms vasaras — un ko tas nozīmē drošībai, kad debesīs regulāri parādās nezināmas ierīces.
+Viens Ukrainas drons iemācīja Latvijai trīs lietas: valdība var krist ātrāk nekā paziņojums par gaisa apdraudējumu, NATO gaisa policija strādā labāk nekā mūsu pašu aizsardzība, un drošības solījumi ir vērtīgi tikai tik ilgi, kamēr tos nepārbauda.
 
 ---
 
 ## LATVIJAS GALVENIE STĀSTI
 
-### Valdības krišana un jaunā koalīcijas meklējumi
+### Valdības krīze: no drona līdz koalīcijai — desmit dienās
 
-Latvija piedzīvoja politisku zemestrīci. Ministru prezidente Evika Siliņa ceturtdien atkāpās no amata pēc tam, kad viņas koalīcijas partneris atsauca atbalstu — iegriežot NATO priekšposteņa valsti politiskā haosā tikai dažus mēnešus pirms plānotajām parlamenta vēlēšanām.
+Nedēļa sākās ar jautājumu, kas nokritīs pirmais — nākamais drons vai valdība. Atbilde: valdība.
 
-Siliņa atlaida aizsardzības ministru Andri Sprūdu pēc vairākām epizodēm, kad Ukrainas droni, šķietami ceļā uz mērķiem Krievijā, ietriecās Latvijas austrumu daļā. Sprūda Progresīvo partija pēc tam paziņoja, ka vairs neatbalstīs valdību.
+Trešdienas vakarā četras politiskās partijas — Apvienotais saraksts, Jaunā Vienotība, Nacionālā apvienība un Zaļo un Zemnieku savienība — parakstīja vienošanos par valdības uzdevumiem un darba principiem. Andris Kulbergs (AS) kļūs par valdības vadītāju, bet katrai partijai tiks piešķirtas četras ministru vietas. Vienošanās paredz fokusu uz drošību, finanšu stabilizāciju un fiskālo disciplīnu.
 
-Prezidents Edgars Rinkēvičs sestdien izvirzīja opozīcijas deputātu Andri Kulbergu (Apvienotais saraksts) premjera amatam. "Ņemot vērā nesenos notikumus, es uzskatu, ka jaunajam premjeram jānāk no opozīcijas partijām," viņš sacīja preses konferencē.
+Prezidents Edgars Rinkēvičs sestdien, 16. maijā, nominēja opozīcijas deputātu Andri Kulbergu, lai tas veidotu jaunu valdību pēc premjeres Evikas Siliņas atkāpšanās saistībā ar Ukrainas dronu incidentu.
 
-Kulbergs uzsvēra, ka būs gatavs pieņemt nepatīkamus lēmumus, īpaši izceļot airBaltic un Rail Baltica projektus kā potenciālos adresātus šādiem lēmumiem. Viņam ir laiks līdz 25. maijam, lai prezidentam iesniegtu savu plānu.
+Kulbergs intervijā Latvijas Radio norādīja, ka Jaunā Vienotība vairs nevarēs saglabāt tik dominējošu lomu valdībā vai izturēties tik augstprātīgi. Šī ir pirmā reize kopš 2018. gada, kad premjers nāk no opozīcijas partijas.
 
-Vērts atcerēties: Saeima vasaras brīvdienās dosies 19. jūnijā un atgriezīsies tikai 31. augustā — nedaudz vairāk nekā mēnesi pirms 3. oktobra vēlēšanām. Vēlēšanu tuvums sarežģī situāciju vairākos veidos.
+Prezidents Kulbergam devis laiku līdz 25. maijam, kad sagaida ziņojumu par koalīcijas veidošanas sarunām, iespējamo atbildību sadali un valdības deklarācijas projektu.
 
-**Ko tas nozīmē tev:** Latvija pašlaik dzīvo "tehniskās valdības" režīmā — ministri turpina strādāt, bet sistēmiski lēmumi gaida. Ja Kulbergam neizdodas, vasaru pavadīsim ar pagaidu valdību, kas nevarēs risināt nevienu lielo jautājumu.
-
-Secinājums: Latvija gadiem runāja par gatavību drošības izaicinājumiem. Pirmais īstais tests beidzās ar valdības krišanu.
+**Ko tas nozīmē tev:** Jaunā valdība strādās tikai līdz 3. oktobra vēlēšanām. Taupības režīms iespējams jau šovasar — Kulbergs solījis budžeta pārskatīšanu. Stabilizācijas periods politikā nebūs.
 
 ---
 
-### Rēzeknes naftas bāzes slēgšana — simbols un sekas
+### Dronu krīze: NATO notriec, Latvija — nē
 
-7. maija naktī divi droni ietriecās East-West Transit naftas glabātavā Rēzeknē uz Komunālās ielas. Tvertnes bija tukšas, taču uzņēmums tagad paziņojis, ka darbinieku drošības dēļ pieņemts lēmums bāzi pilnībā slēgt.
+Pirmo reizi NATO iznīcinātājs notriecis dronu Baltijas valsts teritorijā — Igaunijā. Notriekt Ukrainas dronu izdevās Rumānijas F-16 no "Carpathian Vipers" vienības, kas darbojas no Šauļu bāzes Lietuvā kopš aprīļa.
 
-Trīs droni šķērsoja Latvijas gaisa telpu no Krievijas — divi nokrita Latvijas teritorijā, trešais vēlāk izgāja. Kaut arī brīdinājumi tika izsūtīti austrumu pierobežas iedzīvotājiem, Rēzeknē trauksme atskanēja tikai tad, kad droni jau bija redzami un dzirdami virs galvām.
+19. maijā iespējamais gaisa telpas apdraudējums tika izsludināts deviņos Latvijas novados — Krāslavas, Ludzas, Preiļu, Rēzeknes, Madonas, Cēsu, Smiltenes, Gulbenes un Valmieras novados. Dzelzceļa satiksme tika apturēta, devīto klašu eksāmeni — atlikti, veikali — slēgti.
 
-Incidents atklāja aizsardzības sistēmu, kas nav gatava: droni netika pārtverti pie robežas, brīdinājumi kavējās, valdības reakcija aizkavējās par piecām stundām, un sākotnēji nebija skaidras informācijas par ierīču skaitu vai izcelsmi.
+Pulkvedis Zīle atzina, ka vietne "112" neizturēja slodzi, jo "iepriekš nepieredzēti liels cilvēku skaits mēģināja iegūt papildu informāciju par iespējamo apdraudējumu."
 
-Ojārs Karčevskis no Latvijas Degvielas tirgotāju asociācijas LSM norādīja, ka loģistika mainījusies pēc apvienošanās ar Kool grupu, un Rēzeknes bāze to darbībai vairs nebija nepieciešama.
+Baltijas valstu prezidenti kopīgā vēstulē ceturtdien noraidīja Krievijas "dezinformācijas kampaņu", kas apgalvo, ka Baltijas valstis ļāvušas izmantot savu gaisa telpu Ukrainas dronu uzbrukumiem Krievijai.
 
-**Ko tas nozīmē tev:** Latgales iedzīvotājiem — tas nav abstrakts drošības jautājums. Cilvēki dzird dronus virs galvām pirms trauksmes. Biznesiem austrumos — jautājums par darbības turpināšanu drošības apstākļos.
-
-Secinājums: Drošības diskusijā beidzot ienākusi konkrētība. Rēzekne vairs nav tikai vieta kartē — tas ir vieta, kur sirēna var nenostrādāt.
+Secinājums: NATO gaisa policija pierādīja, ka var reaģēt. Bet jautājums paliek — kāpēc Latvija pati nespēj notriec dronu, kas lido pāri deviņiem novadiem stundu garumā?
 
 ---
 
-### 46 000 skrējēju un hokeja uzvara — nedēļas nogale, kas palīdzēja aizmirst
+### Hokejs: Latvija sakauj čempioni
 
-Kamēr politika sabruka, sports un skrējieni sniedza emocionālu atelpu.
+Vārtsargs Kristers Gudļevskis spīdēja ar 45 atvairītiem metieniem, Latvija pārspēja ASV 4:2 sestdienas agrā spēlē pasaules čempionātā Cīrihē. Sandis Vilmanis guva divus vārtus tukšos vārtos un pievienoja rezultatīvu piespēli trešajā periodā.
 
-Rimi Rīgas maratons kļuva par lielāko savas vēstures laikā: rekordlieli 46 313 dalībnieki no 116 valstīm. Divu dienu festivāls ietver pilno maratonu, pusmaratonu, 10 km, 6 km un DPD jūdzi, kā arī Bērnu dienu — padarot to par lielāko un starptautiskāko skriešanas festivālu Baltijā.
+Tas bija aizstāvošā čempiona ASV trešais zaudējums turnīrā.
 
-Hokejā Latvija svētdien uzvarēja Vāciju 2:0 grupas spēlē Cīrihē. Mārtiņš Dzierkals un Rūdolfs Balcers guva vārtus, mazajai Baltijas nācijai gūstot pirmo uzvaru 2026. gada čempionātā.
+Latvijas izlasei tagad ir deviņi punkti, vienādi ar Austriju. Kapteinis Rudolfs Balcers ar sešiem vārtiem sasniedzis nacionālo rekordu, ko 1939. gadā uzstādīja Arvīds Pētersons.
 
-Vārtsargs Kristers Gudļevskis pilnībā nopelnīja "shutout" duelī pret Vācijas NHL zvaigzni Filipu Grubaueru. Gala metieni — 25:22 Vācijas labā, bet rezultāts — Latvijas.
+Eduards Tralmaks uzreiz iekļāvās ar vārtiem un divām rezultatīvām piespēlēm Latvijas 6:0 uzvarā pret Lielbritāniju.
 
-Pērnajā čempionātā Latvija pabeidza desmitajā vietā un netika līdz izslēgšanas spēlēm. Tagad komanda mēģina atgūt vietu starp labākajām pasaules izlasēm.
-
-**Kāpēc tas svarīgi:** Nedēļā, kad politikā valda haoss, sports atgādina, ka Latvija spēj uzvarēt — gan ar kājām, gan ar nūju.
+Latvijas hokeja izlase Šveicē spēlē kā komanda, kas kaut ko grib pierādīt. Tā arī ir.
 
 ---
 
-### Krievija dubulto dzelzceļa tarifus — vēl viens spiediens uz Baltiju
+### Rēzeknes naftas bāze slēdzas
 
-Saskaņā ar Krievijas Federālā antimonopola dienesta rīkojumu, sākot no 2026. gada 1. jūnija, kravu pārvadājumiem uz Latviju, Igauniju un Somiju tiks piemērots dubults koeficients.
+Pēc 7. maija dronu trieciena Rēzeknē, kur divi droni nokrituši uz naftas uzglabāšanas bāzes Komunālajā ielā, uzņēmums "East-West Transit" paziņojis par darbības pārtraukšanu Rēzeknes bāzē, norādot uz nespēju nodrošināt darbinieku drošību.
 
-Izņēmums ir pārvadājumi uz Kaļiņingradas dzelzceļa stacijām un Lietuvu. Dubults koeficients tiks piemērots arī kravu pārvadājumiem caur Baltkrievijas sauszemes robežšķērsošanas punktiem, ja preces turpina ceļu uz Latviju vai Igauniju.
+Policija un ugunsdzēsēji ziņoja, ka četri tukši naftas tvertnes tika bojāti un iespējamie drona fragmenti atrasti notikuma vietā. Upuri netika ziņoti.
 
-Latvijas dzelzceļa kravu pārvadājumi turpina kristies — 2026. gada pirmajos četros mēnešos apjoms samazinājies par 17,9%, sasniedzot 2,469 miljonus tonnu. 2025. gadā kopējais apjoms jau bija samazinājies par 17,6% salīdzinājumā ar 2024. gadu.
+Latvijas amatpersona norādīja, ka droniem, kas trāpīja naftas bāzē, bija vienāds trāpījuma punkts, kas liecina par mākslīgā intelekta elementiem programmēšanā. "Tālās distances droniem ir AI elementi. Tie var 'meklēt' mērķus, kuriem tie ir ieprogrammēti."
 
-**Ko tas nozīmē tev:** Vēl viens ekonomiskais spiediens no austrumiem. Latvijas ostu un loģistikas biznesi turpina pielāgoties — bet katrs jauns tarifu lēciens nozīmē mazāk darbavietu un mazāku tranzīta nozīmi.
+40 kilometri no Krievijas robežas, tukši tvertnes, neviens upuris — bet pietiekami, lai gāztu valdību un slēgtu uzņēmumu.
 
 ---
 
 ## EKONOMIKA & IESPĒJAS
 
-**Virši pārņem 17 degvielas stacijas**
+### "Latvijas balzams" turpina cīņu par izdzīvošanu
 
-Konkurences padome apstiprinājusi AS Virši-A darījumu, kurā uzņēmums iegūs ilgtermiņa nomas tiesības uz 17 SIA Naftimpeks degvielas stacijām, kas pašlaik darbojas ar "Astarte" zīmolu. Virši plāno pārņemt stacijas jūnijā un jūlijā.
+Februārī tiesa ierosināja "Amber Latvijas balzams" tiesiskās aizsardzības procesu. Plāns, kā uzņēmums plāno izkļūt no grūtās finansiālās situācijas, gaidāms līdz oktobrim.
 
-Pēc staciju pārņemšanas kopējais Virši staciju skaits pieaugs no 84 līdz 101, iezīmējot būtisku uzņēmuma tīkla paplašināšanos visā Latvijā.
+Latvijas alkohola industrijas simbols — "Latvijas balzams" — valstij nodokļos parādā vairāk nekā 28 miljonus eiro. Revidenti iepriekš norādījuši uzņēmumam, ka daļa aizdevumu radnieciskām kompānijām var nebūt pilnībā atgūstami. Situāciju pasliktināja tas, ka janvāra vidū par likvidāciju paziņoja amerikāņu "Stoli Group".
 
-**Ko tas nozīmē tev:** Lielāks Virši tīkls reģionos nozīmē vairāk degvielas piedāvājumu ārpus Rīgas un potenciāli konkurētspējīgākas cenas.
+**Ko tas nozīmē:** "Rīgas Melnais balzams" preču zīmes liktenis atkarīgs no restrukturizācijas plāna. Ekonomisti uzsver — labāk, lai uzņēmums izdzīvo, nekā zaudē 360 darbvietas un kultūras simbolu.
 
----
+### Inflācija paātrinās
 
-**Tūrisma kritums gada sākumā**
+Gada inflācija Latvijā martā pieauga līdz 3,4% salīdzinājumā ar 2,3% iepriekšējā mēnesī — augstākais līmenis kopš 2025. gada decembra.
 
-Pirmajā ceturksnī Latvijas tūristu mītnēs ieradušies 447,1 tūkstoši viesu, bet nakšņojumu skaits samazinājies par 3,0% salīdzinājumā ar 2025. gada pirmo ceturksni. Ārvalstu viesu skaits sarucis par 7,2%, kamēr Latvijas iedzīvotāju skaits audzis par 2,8%.
+Pieaugumu galvenokārt veicināja transporta izmaksu atgūšanās (7,3%), īpaši degvielas cenas — dīzeļdegviela pieauga par 24,1%, benzīns par 7,5%.
 
-Kritums vērojams visos mēnešos: janvārī par 2,7%, februārī par 2,8%, martā par 3,3%.
-
-**Ko tas nozīmē tev:** Latvija kā tūrisma galamērķis zaudē pievilcību starptautiskajos tirgos. Jautājums — vai ģeopolitiskā situācija sāk ietekmēt ceļotāju izvēles.
+**Ko tas nozīmē:** Irānas kara ietekme uz naftas cenām sāk parādīties ikdienas izdevumos. Vasaras ceļojumu budžetam jārēķinās ar augstākām degvielas cenām.
 
 ---
 
 ## INTERNETS & KULTŪRA
 
-### Atvara un Eirovīzijas vilšanās
+### "Flow" varoņi atgriežas Rīgas ielās
 
-Latvija atkal neiekļuva Eirovīzijas finālā — Atvara ar dziesmu "Ēnā" palika ārpus desmitniekā. Latvija finišēja 13. vietā otrajā pusfinālā ar 49 punktiem.
+Ar aktīvās tūrisma sezonas sākumu šonedēļ animācijas filmas "Flow" varoņi atgriežas pilsētā — vietās, ko rīdzinieki izvēlējās īpašā aptaujā pagājušā gada decembrī.
 
-Atvara — jauna dziedātāja un dziesmu autore no Latvijas, kas ieguva atpazīstamību, kļūstot virāla TikTok. Viņas singls "Pie manis tveries" skatīts vairāk nekā 2 miljonus reižu.
+Kaķis no "Flow" jau novietots pie kinoteātra "Splendid Palace" ieejas. Suns atradīsies Uzvaras parkā, kapibara — pie Bērnu klīniskās universitātes slimnīcas, bet lemurs atgriezīsies Mežaparkā pretī Rīgas zooloģiskā dārza ieejai.
 
-Latvijas internets pēc rezultāta sadalījās divās nometnēs: vieni uzskatīja, ka dziesma bija pārāk intīma Eirovīzijas skatuvei, citi — ka problēma nav mūzikā, bet mūsu spējā "pārdot" izpildītāju starptautiskajai auditorijai. Pēc divu gadu kvalificēšanās sērijas — atkal vilšanās.
+Informācija par "Flow" varoņu atrašanās vietām tiks iekļauta Rīgas tūristu ceļvežos, jo tie kļuvuši par populāru apskates objektu arī ārvalstu viesiem.
 
-Tikmēr Bulgārija uzvarēja lielo finālu ar DARA un dziesmu "Bangaranga".
+Gadu pēc Oskara — Rīga turpina būt "Flow Land". Ir kaut kas aizkustinoši tajā, ka pilsēta nolēmusi paturēt šos varoņus pastāvīgi.
+
+---
+
+## SPORTS & MOMENTI
+
+Rudolfs Balcers ar sešiem vārtiem pasaules čempionātā sasniedzis Latvijas nacionālo rekordu, ko 1939. gadā uzstādīja Arvīds Petersons. Turnīra labākais vārtu guvējs spēlē mājās — Cīrihē, kur viņš spēlē par ZSC Zurich Lions un turpinās arī nākamajā sezonā.
+
+Rekordam 87 gadi. Balcers to sasniedzis komandā, kas tikko sakauj aizstāvošo čempioni.
 
 ---
 
 ## KO DARĪT ŠONEDĒĻ
 
-**Muzeju nakts — sestdien, 23. maijā**
+**Riga Art Week** — no 25. līdz 31. maijam
 
-Starptautiskā Muzeju diena Eiropā tiek svinēta 18. maijā, bet Latvijā tradicionālā Muzeju nakts šogad notiks jau 22. reizi — sestdien, 23. maijā.
+No 25. līdz 31. maijam Rīgā otro reizi notiek Riga Art Week (RAW) — pilsētas mēroga starptautisks laikmetīgās mākslas festivāls, kas apvieno galerijas, muzejus, mākslas centrus un neatkarīgas kultūras iniciatīvas.
 
-246 muzeji un kultūras vietas visā Latvijā atvērs durvis apmeklētājiem. Rīgā un tās apkārtnē piedalīsies 82 kultūras vietas, Vidzemē — 51, Kurzemē — 49, Latgalē — 39, Zemgalē — 25.
+Programma ietver izstādes, lekcijas, darbnīcas, pop-up pasākumus un starptautiskus viesus.
 
-Šī gada tēma "Priekšmeta piedzīvojumi" aicina atklāt stāstus, kas slēpjas aiz šķietami ikdienišķiem priekšmetiem.
-
-Ieeja — bez maksas. Programma: latvia.icom.museum.lv
-
-**Kāpēc aiziet:** Viena nakts gadā, kad muzeji kļūst par dzīvām vietām — ar koncertiem, radošajām darbnīcām, teātra izrādēm. Labākā iespēja ieraudzīt pazīstamas vietas citādi.
+Redaktora izvēle: Ja gribi redzēt Rīgu no citas puses — šī ir nedēļa. Bezmaksas galeriju apmeklējumi, jaunatklātie mākslas telpu un iespēja satikt radošās industrijas cilvēkus. Visas vecuma grupas.
 
 ---
 
 ## ĀTRIE JAUNUMI
 
-• 17. maija naktī vēl viens nezināmas izcelsmes drons šķērsoja Latvijas gaisa telpu un pēc tam to atstāja. Trauksme tika izsludināta piecu austrumu pierobežas novadu iedzīvotājiem, un gaisā tika pacelti NATO gaisa telpas patrulēšanas iznīcinātāji.
+• "Flow" kaķis un viņa draugi atgriežas dažādās vietās Rīgā — meklē kapibaru pie Bērnu slimnīcas
 
-• Baltijas valstis gatavojas tērēt aptuveni 12,2 miljardus eiro no ES SAFE zemo procentu aizdevumiem jauniem ieročiem, aprīkojumam un munīcijai — pirmie līgumi tiks parakstīti tuvākajās nedēļās.
+• Kulberga valdības sarunas ietver vienādu ministru vietu sadalījumu četrām partijām — katrai pa četrām
 
-• Latvijas Banka izlaidusi jaunu kolekcijas monētu ar līgavas vainaga motīvu.
+• Swedbank pazemināja Latvijas IKP pieauguma prognozi no 2,3% uz 1,9% un paaugstināja inflācijas prognozi no 2,8% uz 4,2% — Persijas līča karš vainīgs
 
-• Liepājas šosejas remontdarbi sākušies — plānojiet braucienus uz Kurzemi attiecīgi.
+• Virši saņēmuši atļauju degvielas staciju pārņemšanai — tirgus konsolidācija turpinās
+
+• Latvijas viesnīcu rezervācijas 2026. gada sākumā sarukušas — tūrisma sektors gaida vasaru
+
+• Lux Express atsāk Rīga-Daugavpils reisus divas reizes dienā — austrumu virziens atkal ar autobusu
+
+---
+
+## NĀKAMĀ NEDĒĻA
+
+**Galvenais notikums:** Kulberga valdības apstiprināšana Saeimā. Ja četru partiju koalīcija notur — Latvija iegūst pirmo opozīcijas premjeru kopš 2018. gada. Ja sarunas sabrūk — politiskā krīze dziļinās pirms oktobra vēlēšanām.
+
+**Kas mainās:** Hokeja izlasei pēdējās grupu spēles — uzvara pret Ungāriju nodrošinātu ceturtdaļfinālu. Latvija šobrīd dalās ar Austriju ceturtajā vietā grupā.
+
+**Ko vērot:** Inflācijas dati par aprīli parādīs, vai degvielas cenu kāpums turpinās. Ja Irānas konflikts eskalējas — Latvijas ekonomika jutīs to agrāk nekā citas ES valstis.
